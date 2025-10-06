@@ -1,5 +1,5 @@
 # PROPUESTA DE TRABAJO FIN DE MÁSTER
-## DriveScore - Plataforma de Evaluación Social de Conducción para la Mejora de la Seguridad Vial
+## DriveSkore - Plataforma de Evaluación Social de Conducción para la Mejora de la Seguridad Vial
 
 **Máster Universitario en Ingeniería Informática**  
 **Escuela Técnica Superior de Ingeniería - Universidad de Huelva**
@@ -8,7 +8,7 @@
 
 ## INFORMACIÓN GENERAL
 
-**Título del Proyecto:** DriveScore - Plataforma de Evaluación Social de Conducción para la Mejora de la Seguridad Vial
+**Título del Proyecto:** DriveSkore - Plataforma de Evaluación Social de Conducción para la Mejora de la Seguridad Vial
 
 **Alumno:** Gamaliel Moreno Sánchez
 
@@ -24,9 +24,9 @@ Departamento de Tecnologías de la Información
 
 ## RESUMEN EJECUTIVO
 
-DriveScore es una plataforma tecnológica innovadora que aplica el concepto de evaluación social entre pares al ámbito de la conducción de vehículos. Inspirada en modelos exitosos como eBay, BlaBlaCar, Wallapop y CouchSurfing, esta aplicación permitirá a los conductores evaluarse mutuamente, creando así un sistema de reputación que incentive conductas responsables y seguras en las vías públicas.
+DriveSkore es una plataforma tecnológica innovadora que aplica el concepto de evaluación social entre pares al ámbito de la conducción de vehículos. Inspirada en modelos exitosos como eBay, BlaBlaCar, Wallapop y CouchSurfing, esta aplicación permitirá a los conductores evaluarse mutuamente, creando así un sistema de reputación que incentive conductas responsables y seguras en las vías públicas.
 
-El proyecto surge de una necesidad real: la dificultad de demostrar objetivamente el historial de conducción segura de un conductor, especialmente en situaciones administrativas como renovaciones de permisos de conducir. Más allá de resolver este problema particular, DriveScore aspira a transformar la cultura vial global mediante la aplicación del concepto de "aldea global digital", donde los conductores son conscientes de que sus acciones son observables y evaluables por la comunidad.
+El proyecto surge de una necesidad real: la dificultad de demostrar objetivamente el historial de conducción segura de un conductor, especialmente en situaciones administrativas como renovaciones de permisos de conducir. Más allá de resolver este problema particular, DriveSkore aspira a transformar la cultura vial global mediante la aplicación del concepto de "aldea global digital", donde los conductores son conscientes de que sus acciones son observables y evaluables por la comunidad.
 
 **Palabras clave:** Evaluación social, seguridad vial, gamificación, responsabilidad cívica, tecnología móvil, reconocimiento de matrículas, inteligencia artificial, software libre.
 
@@ -36,7 +36,7 @@ El proyecto surge de una necesidad real: la dificultad de demostrar objetivament
 
 ### 1.1. Origen del Proyecto
 
-El proyecto DriveScore nace de una experiencia personal del director del proyecto, el Dr. José Carpio Cañada, quien tras 30 años de conducción sin accidentes se ha encontrado con barreras administrativas para renovar su permiso de conducir debido a una condición médica (Adrenoleucodistrofia ALD-X). A pesar de tener un historial impecable de conducción y encontrarse en proceso de recuperación, no existe un mecanismo objetivo que permita demostrar su competencia como conductor más allá de informes médicos.
+El proyecto DriveSkore nace de una experiencia personal del director del proyecto, el Dr. José Carpio Cañada, quien tras 30 años de conducción sin accidentes se ha encontrado con barreras administrativas para renovar su permiso de conducir debido a una condición médica (Adrenoleucodistrofia ALD-X). A pesar de tener un historial impecable de conducción y encontrarse en proceso de recuperación, no existe un mecanismo objetivo que permita demostrar su competencia como conductor más allá de informes médicos.
 
 Esta situación evidencia una carencia sistémica: **la ausencia de un sistema de acreditación positiva del comportamiento vial**.
 
@@ -180,7 +180,7 @@ Diseñar, desarrollar y validar una plataforma tecnológica móvil que permita a
 
 ### 4.1. Aplicaciones de Monitoreo de Conducción
 
-Existen varias aplicaciones en el mercado que monitorizan hábitos de conducción, pero con enfoques diferentes a DriveScore:
+Existen varias aplicaciones en el mercado que monitorizan hábitos de conducción, pero con enfoques diferentes a DriveSkore:
 
 #### **TrueMotion / TrueMotion Family**
 - **Enfoque:** Monitoreo individual mediante sensores del smartphone
@@ -197,7 +197,7 @@ Existen varias aplicaciones en el mercado que monitorizan hábitos de conducció
 #### **BlaBlaCar**
 - **Enfoque:** Compartir coche para viajes largos
 - **Funcionalidad:** Sistema de evaluaciones entre conductores y pasajeros
-- **Diferencia con DriveScore:** Limitado a usuarios que comparten coche, no evalúa comportamiento general en carretera
+- **Diferencia con DriveSkore:** Limitado a usuarios que comparten coche, no evalúa comportamiento general en carretera
 
 ### 4.2. Análisis de Gaps y Oportunidades
 
@@ -208,7 +208,7 @@ Existen varias aplicaciones en el mercado que monitorizan hábitos de conducció
 4. Visión de comunidad global (no limitada a seguros o grupos cerrados)
 5. Reconocimiento automático de vehículos para facilitar evaluaciones
 
-**DriveScore se diferencia por:**
+**DriveSkore se diferencia por:**
 - **Apertura:** Cualquier conductor puede evaluar a cualquier otro
 - **Universalidad:** No requiere relación previa ni hardware adicional
 - **Foco social:** Prioriza el cambio cultural sobre la telemática individual
@@ -229,7 +229,7 @@ Sin embargo, los sistemas ALPR enfrentan desafíos significativos: deben procesa
 - Gamificación (puntos, rangos, logros)
 - Comunidad colaborativa
 
-**Aprendizajes de Waze para DriveScore:**
+**Aprendizajes de Waze para DriveSkore:**
 - La gamificación funciona para engagement en contextos de conducción
 - Los usuarios están dispuestos a contribuir información si ven beneficios
 - La comunidad puede autoregularse con buenos mecanismos
@@ -285,7 +285,7 @@ El cumplimiento GDPR en sistemas de reconocimiento automático de matrículas re
 
 ### 6.2. Consideraciones Éticas del Anonimato Parcial
 
-La investigación sobre anonimato en redes sociales muestra efectos duales: mientras el anonimato puede facilitar comportamientos agresivos, también puede reducir el riesgo percibido y fomentar valentía moral, permitiendo a individuos defender causas justas sin temor a represalias [6]. Estudios demuestran que usuarios anónimos muestran niveles más bajos de deseabilidad social y mayor honestidad, sugiriendo que sistemas con identificación parcial (como DriveScore) deben equilibrar cuidadosamente accountability con libertad de expresión [7].
+La investigación sobre anonimato en redes sociales muestra efectos duales: mientras el anonimato puede facilitar comportamientos agresivos, también puede reducir el riesgo percibido y fomentar valentía moral, permitiendo a individuos defender causas justas sin temor a represalias [6]. Estudios demuestran que usuarios anónimos muestran niveles más bajos de deseabilidad social y mayor honestidad, sugiriendo que sistemas con identificación parcial (como DriveSkore) deben equilibrar cuidadosamente accountability con libertad de expresión [7].
 
 ### 6.3. Medidas de Protección Implementadas
 
@@ -299,7 +299,7 @@ La investigación sobre anonimato en redes sociales muestra efectos duales: mien
 
 ## 7. CONTRIBUCIÓN A OBJETIVOS DE DESARROLLO SOSTENIBLE
 
-DriveScore contribuye directamente a varios Objetivos de Desarrollo Sostenible de las Naciones Unidas [28]:
+DriveSkore contribuye directamente a varios Objetivos de Desarrollo Sostenible de las Naciones Unidas [28]:
 
 ### ODS 3: Salud y Bienestar
 - **Meta 3.6:** Reducir a la mitad muertes por accidentes de tráfico
@@ -320,7 +320,7 @@ DriveScore contribuye directamente a varios Objetivos de Desarrollo Sostenible d
 
 ## 8. CONCLUSIONES
 
-DriveScore representa una innovación significativa en la aplicación de tecnologías de evaluación social al ámbito de la seguridad vial. El proyecto se fundamenta en evidencia científica sólida sobre el impacto del anonimato en el comportamiento social, la efectividad de sistemas de reputación en plataformas peer-to-peer, y el potencial de la gamificación para modificar conductas.
+DriveSkore representa una innovación significativa en la aplicación de tecnologías de evaluación social al ámbito de la seguridad vial. El proyecto se fundamenta en evidencia científica sólida sobre el impacto del anonimato en el comportamiento social, la efectividad de sistemas de reputación en plataformas peer-to-peer, y el potencial de la gamificación para modificar conductas.
 
 La viabilidad técnica está respaldada por tecnologías maduras de reconocimiento de matrículas y arquitecturas cloud escalables. El marco legal, aunque complejo, es navegable mediante implementación cuidadosa del GDPR y principios de privacy by design. El análisis competitivo demuestra un espacio de mercado sin cubrir: ninguna solución existente combina evaluación social abierta, reconocimiento automático de vehículos y enfoque en cambio cultural.
 
