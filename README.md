@@ -6,7 +6,7 @@
 
 ## INFORMACIÓN GENERAL
 
-**Título del Proyecto:** DriveScore - Plataforma de Evaluación Social de Conducción para la Mejora de la Seguridad Vial
+**Título del Proyecto:** DriveSkore - Plataforma de Evaluación Social de Conducción para la Mejora de la Seguridad Vial
 
 **Alumno:** Gamaliel Moreno Sánchez
 
@@ -22,9 +22,9 @@ Departamento de Tecnologías de la Información
 
 ## RESUMEN EJECUTIVO
 
-DriveScore es una plataforma tecnológica innovadora que aplica el concepto de evaluación social entre pares al ámbito de la conducción de vehículos. Inspirada en modelos exitosos como eBay, BlaBlaCar, Wallapop y CouchSurfing, esta aplicación permitirá a los conductores evaluarse mutuamente, creando así un sistema de reputación que incentive conductas responsables y seguras en las vías públicas.
+DriveSkore es una plataforma tecnológica innovadora que aplica el concepto de evaluación social entre pares al ámbito de la conducción de vehículos. Inspirada en modelos exitosos como eBay, BlaBlaCar, Wallapop y CouchSurfing, esta aplicación permitirá a los conductores evaluarse mutuamente, creando así un sistema de reputación que incentive conductas responsables y seguras en las vías públicas.
 
-El proyecto surge de una necesidad real: la dificultad de demostrar objetivamente el historial de conducción segura de un conductor, especialmente en situaciones administrativas como renovaciones de permisos de conducir. Más allá de resolver este problema particular, DriveScore aspira a transformar la cultura vial global mediante la aplicación del concepto de "aldea global digital", donde los conductores son conscientes de que sus acciones son observables y evaluables por la comunidad.
+El proyecto surge de una necesidad real: la dificultad de demostrar objetivamente el historial de conducción segura de un conductor, especialmente en situaciones administrativas como renovaciones de permisos de conducir. Más allá de resolver este problema particular, DriveSkore aspira a transformar la cultura vial global mediante la aplicación del concepto de "aldea global digital", donde los conductores son conscientes de que sus acciones son observables y evaluables por la comunidad.
 
 **Palabras clave:** Evaluación social, seguridad vial, gamificación, responsabilidad cívica, tecnología móvil, reconocimiento de matrículas, inteligencia artificial, software libre.
 
@@ -34,7 +34,7 @@ El proyecto surge de una necesidad real: la dificultad de demostrar objetivament
 
 ### 1.1. Origen del Proyecto
 
-El proyecto DriveScore nace de una experiencia personal del director del proyecto, el Dr. José Carpio Cañada, quien tras 30 años de conducción sin accidentes se ha encontrado con barreras administrativas para renovar su permiso de conducir debido a una condición médica (Adrenoleucodistrofia ALD-X). A pesar de tener un historial impecable de conducción y encontrarse en proceso de recuperación, no existe un mecanismo objetivo que permita demostrar su competencia como conductor más allá de informes médicos.
+El proyecto DriveSkore nace de una experiencia personal del director del proyecto, el Dr. José Carpio Cañada, quien tras 30 años de conducción sin accidentes se ha encontrado con barreras administrativas para renovar su permiso de conducir debido a una condición médica (Adrenoleucodistrofia ALD-X). A pesar de tener un historial impecable de conducción y encontrarse en proceso de recuperación, no existe un mecanismo objetivo que permita demostrar su competencia como conductor más allá de informes médicos.
 
 Esta situación evidencia una carencia sistémica: **la ausencia de un sistema de acreditación positiva del comportamiento vial**.
 
@@ -170,7 +170,7 @@ Diseñar, desarrollar y validar una plataforma tecnológica móvil que permita a
 
 ### 4.1. Aplicaciones de Monitoreo de Conducción
 
-Existen varias aplicaciones en el mercado que monitorizan hábitos de conducción, pero con enfoques diferentes a DriveScore:
+Existen varias aplicaciones en el mercado que monitorizan hábitos de conducción, pero con enfoques diferentes a DriveSkore:
 
 #### **TrueMotion / TrueMotion Family**
 - **Enfoque:** Monitoreo individual mediante sensores del smartphone
@@ -202,7 +202,7 @@ Existen varias aplicaciones en el mercado que monitorizan hábitos de conducció
 #### **BlaBlaCar**
 - **Enfoque:** Compartir coche para viajes largos
 - **Funcionalidad:** Sistema de evaluaciones entre conductores y pasajeros
-- **Diferencia con DriveScore:** Limitado a usuarios que comparten coche, no evalúa comportamiento general en carretera
+- **Diferencia con DriveSkore:** Limitado a usuarios que comparten coche, no evalúa comportamiento general en carretera
 
 ### 4.2. Análisis de Gaps y Oportunidades
 
@@ -213,7 +213,7 @@ Existen varias aplicaciones en el mercado que monitorizan hábitos de conducció
 4. Visión de comunidad global (no limitada a seguros o grupos cerrados)
 5. Reconocimiento automático de vehículos para facilitar evaluaciones
 
-**DriveScore se diferencia por:**
+**DriveSkore se diferencia por:**
 - **Apertura:** Cualquier conductor puede evaluar a cualquier otro
 - **Universalidad:** No requiere relación previa (vs. BlaBlaCar) ni hardware adicional
 - **Foco social:** Prioriza el cambio cultural sobre la telemática individual
@@ -228,7 +228,7 @@ Existen varias aplicaciones en el mercado que monitorizan hábitos de conducció
 - Gamificación (puntos, rangos, logros)
 - Comunidad colaborativa
 
-**Aprendizajes de Waze para DriveScore:**
+**Aprendizajes de Waze para DriveSkore:**
 - La gamificación funciona para engagement en contextos de conducción
 - Los usuarios están dispuestos a contribuir información si ven beneficios
 - La comunidad puede autoregularse con buenos mecanismos
@@ -505,7 +505,7 @@ MES 3: NEGOCIO Y DOCUMENTACIÓN
 
 ### 7.1. Visión General
 
-DriveScore seguirá una arquitectura de **tres capas** con principios de **microservicios** para facilitar la escalabilidad:
+DriveSkore seguirá una arquitectura de **tres capas** con principios de **microservicios** para facilitar la escalabilidad:
 
 ```
 ┌─────────────────────────────────────────┐
@@ -591,7 +591,7 @@ DriveScore seguirá una arquitectura de **tres capas** con principios de **micro
   ```
 
 # PROPUESTA DE TRABAJO FIN DE MÁSTER
-## DriveScore - Continuación desde 7.3
+## DriveSkore - Continuación desde 7.3
 
 ---
 
@@ -685,7 +685,7 @@ DriveScore seguirá una arquitectura de **tres capas** con principios de **micro
 ### 7.4. Flujo de Funcionamiento Principal
 
 ```
-1. Usuario abre app DriveScore
+1. Usuario abre app DriveSkore
    ↓
 2. Usuario captura foto de matrícula de vehículo
    ↓
@@ -906,7 +906,7 @@ Una vez alcanzada masa crítica de usuarios (>100,000), explorar modelos de ingr
 - Evaluaciones ilimitadas
 - Perfil básico de reputación
 
-**Versión Premium (DriveScore Pro - €2.99/mes o €29/año):**
+**Versión Premium (DriveSkore Pro - €2.99/mes o €29/año):**
 - Estadísticas avanzadas (tendencias, gráficos históricos)
 - Badges exclusivos
 - Certificado descargable de buena conducción (PDF oficial)
@@ -925,9 +925,9 @@ Una vez alcanzada masa crítica de usuarios (>100,000), explorar modelos de ingr
 - Validación objetiva de buenos conductores
 
 **Modelos de Colaboración:**
-- **Descuentos en seguros:** Aseguradoras ofrecen 10-20% descuento a usuarios con alta reputación DriveScore
+- **Descuentos en seguros:** Aseguradoras ofrecen 10-20% descuento a usuarios con alta reputación DriveSkore
 - **Licenciamiento de tecnología:** Venta de API de scoring a aseguradoras
-- **Comisión por referral:** DriveScore recomienda seguros, cobra comisión por cada contrato
+- **Comisión por referral:** DriveSkore recomienda seguros, cobra comisión por cada contrato
 
 **Potencial:** Partnerships con 3-5 aseguradoras españolas (MAPFRE, Mutua Madrileña, AXA, etc.) podrían generar **€50,000-200,000/año** en fase de crecimiento.
 
@@ -941,7 +941,7 @@ Una vez alcanzada masa crítica de usuarios (>100,000), explorar modelos de ingr
 **Modelos:**
 - **Subvenciones:** Financiación pública por innovación en seguridad vial
 - **Contratos de consultoría:** Análisis de datos para políticas públicas
-- **Integración oficial:** DriveScore como complemento opcional al sistema de puntos
+- **Integración oficial:** DriveSkore como complemento opcional al sistema de puntos
 
 **Potencial:** Subvenciones europeas (H2020, Digital Europe) o españolas (CDTI) de **€100,000-500,000** para I+D+i en seguridad vial.
 
@@ -951,7 +951,7 @@ Una vez alcanzada masa crítica de usuarios (>100,000), explorar modelos de ingr
 - Talleres verificados con descuentos para usuarios de alta reputación
 - Estaciones de servicio con ofertas
 - Cursos de conducción segura
-- Alquiler de vehículos P2P (tipo Turo) con reputación DriveScore
+- Alquiler de vehículos P2P (tipo Turo) con reputación DriveSkore
 
 **Modelo:** Comisión del 10-15% por cada transacción facilitada.
 
@@ -1080,7 +1080,7 @@ Si es necesario, implementar publicidad de manera respetuosa:
 
 3. **Shareable Content:**
    - "Comparte tu certificado de Conductor Experto en LinkedIn"
-   - Infografías personalizadas (tu año en DriveScore)
+   - Infografías personalizadas (tu año en DriveSkore)
    - Badges bonitos para redes sociales
 
 4. **Eventos y Comunidad:**
@@ -1182,7 +1182,7 @@ Si es necesario, implementar publicidad de manera respetuosa:
 ### 11.4. Versión 4.0 (Año 2): Partnerships y Monetización
 **Objetivo:** Escalar y generar ingresos
 
-- Freemium (DriveScore Pro)
+- Freemium (DriveSkore Pro)
 - Integración con aseguradoras (descuentos)
 - Certificados oficiales descargables
 - Marketplace de servicios
@@ -1220,7 +1220,7 @@ Si es necesario, implementar publicidad de manera respetuosa:
 
 ### 12.1. Alineación con Objetivos de Desarrollo Sostenible (ONU)
 
-DriveScore contribuye directamente a varios ODS:
+DriveSkore contribuye directamente a varios ODS:
 
 #### **ODS 3: Salud y Bienestar**
 - **Meta 3.6:** Reducir a la mitad muertes por accidentes de tráfico
@@ -1265,15 +1265,15 @@ DriveScore contribuye directamente a varios ODS:
 #### **Largo Plazo (Año 5+):**
 - **1,000,000+ usuarios** a nivel internacional
 - **Reducción demostrable de siniestralidad** en zonas con adopción masiva (>20% conductores)
-- **Cambio cultural:** DriveScore reconocido como estándar de "ciudadanía vial digital"
-- **Legislación:** Posible reconocimiento oficial de reputación DriveScore en procesos administrativos
+- **Cambio cultural:** DriveSkore reconocido como estándar de "ciudadanía vial digital"
+- **Legislación:** Posible reconocimiento oficial de reputación DriveSkore en procesos administrativos
 
 ### 12.3. Casos de Uso de Alto Impacto Social
 
 #### **Caso 1: Renovación de Permisos de Conducir**
 **Problema Original (José Carpio):** Dificultad para demostrar historial de conducción segura ante condiciones médicas.
 
-**Solución con DriveScore:**
+**Solución con DriveSkore:**
 - Perfil público con 30 años de evaluaciones positivas
 - Certificado descargable con métricas objetivas
 - Evidencia complementaria para comisiones médicas
@@ -1282,7 +1282,7 @@ DriveScore contribuye directamente a varios ODS:
 #### **Caso 2: Conductores Profesionales (VTC, Taxi, Flotas)**
 **Problema:** Difícil diferenciarse en mercados competitivos.
 
-**Solución con DriveScore:**
+**Solución con DriveSkore:**
 - Badge de "Conductor Profesional Verificado"
 - Reputación visible para pasajeros
 - Incentivo para mantener estándares altos
@@ -1291,7 +1291,7 @@ DriveScore contribuye directamente a varios ODS:
 #### **Caso 3: Conductores Noveles**
 **Problema:** Alta siniestralidad en primeros años de conducción.
 
-**Solución con DriveScore:**
+**Solución con DriveSkore:**
 - Sistema de mentoring (conductores expertos asesoran a noveles)
 - Gamificación de aprendizaje de buenos hábitos
 - Feedback constructivo de la comunidad
@@ -1300,7 +1300,7 @@ DriveScore contribuye directamente a varios ODS:
 #### **Caso 4: Víctimas de Accidentes y Familiares**
 **Problema:** Sensación de impunidad ante conductores imprudentes no sancionados oficialmente.
 
-**Solución con DriveScore:**
+**Solución con DriveSkore:**
 - Sistema de "justicia social" complementario (no sustitutivo) al legal
 - Visibilización de comportamientos peligrosos
 - Presión social positiva para cambio
@@ -1309,7 +1309,7 @@ DriveScore contribuye directamente a varios ODS:
 #### **Caso 5: Movilidad Urbana Sostenible**
 **Problema:** Conflicto entre diferentes usuarios de vía (coches, bicis, peatones).
 
-**Solución con DriveScore:**
+**Solución con DriveSkore:**
 - Evaluación cruzada (ciclistas evalúan conductores y viceversa)
 - Promoción de empatía entre usuarios de la vía
 - Datos para planificación urbana (zonas conflictivas)
@@ -1696,7 +1696,7 @@ La memoria del TFM debe contener los siguientes apartados:
 
 ### 16.1. Síntesis del Proyecto
 
-DriveScore representa una oportunidad única de aplicar tecnología y principios de evaluación social para abordar uno de los problemas más graves de la sociedad moderna: **los accidentes de tráfico**. Con 1.35 millones de muertes anuales a nivel global, existe una necesidad urgente de soluciones innovadoras que complementen las medidas tradicionales de control y sanción.
+DriveSkore representa una oportunidad única de aplicar tecnología y principios de evaluación social para abordar uno de los problemas más graves de la sociedad moderna: **los accidentes de tráfico**. Con 1.35 millones de muertes anuales a nivel global, existe una necesidad urgente de soluciones innovadoras que complementen las medidas tradicionales de control y sanción.
 
 El proyecto se fundamenta en una hipótesis sólida respaldada por estudios de psicología social y el éxito de plataformas como eBay, BlaBlaCar y Airbnb: **cuando las personas saben que sus acciones son observables y evaluables, modifican su comportamiento hacia prácticas más responsables**.
 
@@ -1738,7 +1738,7 @@ Este Trabajo Fin de Máster se diferencia de TFMs tradicionales en varios aspect
 
 1. **Impacto Social Real:** No es solo un ejercicio académico, sino el inicio de un proyecto con potencial de salvar vidas
 
-2. **Validación con Usuarios Reales:** A diferencia de muchos TFMs que quedan en prototipos no utilizados, DriveScore será probado por usuarios reales desde el primer mes
+2. **Validación con Usuarios Reales:** A diferencia de muchos TFMs que quedan en prototipos no utilizados, DriveSkore será probado por usuarios reales desde el primer mes
 
 3. **Visión de Negocio:** Incluye un plan completo de sostenibilidad y escalabilidad, no solo aspectos técnicos
 
@@ -1819,7 +1819,7 @@ Este proyecto representa la materialización de:
 
 ### 17.3. Para la Universidad de Huelva
 
-DriveScore puede ser:
+DriveSkore puede ser:
 
 - **Caso de éxito** de innovación universitaria con impacto social
 - **Modelo** de TFMs con visión emprendedora y de negocio
@@ -1831,7 +1831,7 @@ DriveScore puede ser:
 ---
 
 # PROPUESTA DE TRABAJO FIN DE MÁSTER
-## DriveScore - Continuación desde 7.3
+## DriveSkore - Continuación desde 7.3
 
 ---
 
@@ -1925,7 +1925,7 @@ DriveScore puede ser:
 ### 7.4. Flujo de Funcionamiento Principal
 
 ```
-1. Usuario abre app DriveScore
+1. Usuario abre app DriveSkore
    ↓
 2. Usuario captura foto de matrícula de vehículo
    ↓
@@ -2146,7 +2146,7 @@ Una vez alcanzada masa crítica de usuarios (>100,000), explorar modelos de ingr
 - Evaluaciones ilimitadas
 - Perfil básico de reputación
 
-**Versión Premium (DriveScore Pro - €2.99/mes o €29/año):**
+**Versión Premium (DriveSkore Pro - €2.99/mes o €29/año):**
 - Estadísticas avanzadas (tendencias, gráficos históricos)
 - Badges exclusivos
 - Certificado descargable de buena conducción (PDF oficial)
@@ -2165,9 +2165,9 @@ Una vez alcanzada masa crítica de usuarios (>100,000), explorar modelos de ingr
 - Validación objetiva de buenos conductores
 
 **Modelos de Colaboración:**
-- **Descuentos en seguros:** Aseguradoras ofrecen 10-20% descuento a usuarios con alta reputación DriveScore
+- **Descuentos en seguros:** Aseguradoras ofrecen 10-20% descuento a usuarios con alta reputación DriveSkore
 - **Licenciamiento de tecnología:** Venta de API de scoring a aseguradoras
-- **Comisión por referral:** DriveScore recomienda seguros, cobra comisión por cada contrato
+- **Comisión por referral:** DriveSkore recomienda seguros, cobra comisión por cada contrato
 
 **Potencial:** Partnerships con 3-5 aseguradoras españolas (MAPFRE, Mutua Madrileña, AXA, etc.) podrían generar **€50,000-200,000/año** en fase de crecimiento.
 
@@ -2181,7 +2181,7 @@ Una vez alcanzada masa crítica de usuarios (>100,000), explorar modelos de ingr
 **Modelos:**
 - **Subvenciones:** Financiación pública por innovación en seguridad vial
 - **Contratos de consultoría:** Análisis de datos para políticas públicas
-- **Integración oficial:** DriveScore como complemento opcional al sistema de puntos
+- **Integración oficial:** DriveSkore como complemento opcional al sistema de puntos
 
 **Potencial:** Subvenciones europeas (H2020, Digital Europe) o españolas (CDTI) de **€100,000-500,000** para I+D+i en seguridad vial.
 
@@ -2191,7 +2191,7 @@ Una vez alcanzada masa crítica de usuarios (>100,000), explorar modelos de ingr
 - Talleres verificados con descuentos para usuarios de alta reputación
 - Estaciones de servicio con ofertas
 - Cursos de conducción segura
-- Alquiler de vehículos P2P (tipo Turo) con reputación DriveScore
+- Alquiler de vehículos P2P (tipo Turo) con reputación DriveSkore
 
 **Modelo:** Comisión del 10-15% por cada transacción facilitada.
 
@@ -2320,7 +2320,7 @@ Si es necesario, implementar publicidad de manera respetuosa:
 
 3. **Shareable Content:**
    - "Comparte tu certificado de Conductor Experto en LinkedIn"
-   - Infografías personalizadas (tu año en DriveScore)
+   - Infografías personalizadas (tu año en DriveSkore)
    - Badges bonitos para redes sociales
 
 4. **Eventos y Comunidad:**
@@ -2422,7 +2422,7 @@ Si es necesario, implementar publicidad de manera respetuosa:
 ### 11.4. Versión 4.0 (Año 2): Partnerships y Monetización
 **Objetivo:** Escalar y generar ingresos
 
-- Freemium (DriveScore Pro)
+- Freemium (DriveSkore Pro)
 - Integración con aseguradoras (descuentos)
 - Certificados oficiales descargables
 - Marketplace de servicios
@@ -2460,7 +2460,7 @@ Si es necesario, implementar publicidad de manera respetuosa:
 
 ### 12.1. Alineación con Objetivos de Desarrollo Sostenible (ONU)
 
-DriveScore contribuye directamente a varios ODS:
+DriveSkore contribuye directamente a varios ODS:
 
 #### **ODS 3: Salud y Bienestar**
 - **Meta 3.6:** Reducir a la mitad muertes por accidentes de tráfico
@@ -2505,15 +2505,15 @@ DriveScore contribuye directamente a varios ODS:
 #### **Largo Plazo (Año 5+):**
 - **1,000,000+ usuarios** a nivel internacional
 - **Reducción demostrable de siniestralidad** en zonas con adopción masiva (>20% conductores)
-- **Cambio cultural:** DriveScore reconocido como estándar de "ciudadanía vial digital"
-- **Legislación:** Posible reconocimiento oficial de reputación DriveScore en procesos administrativos
+- **Cambio cultural:** DriveSkore reconocido como estándar de "ciudadanía vial digital"
+- **Legislación:** Posible reconocimiento oficial de reputación DriveSkore en procesos administrativos
 
 ### 12.3. Casos de Uso de Alto Impacto Social
 
 #### **Caso 1: Renovación de Permisos de Conducir**
 **Problema Original (José Carpio):** Dificultad para demostrar historial de conducción segura ante condiciones médicas.
 
-**Solución con DriveScore:**
+**Solución con DriveSkore:**
 - Perfil público con 30 años de evaluaciones positivas
 - Certificado descargable con métricas objetivas
 - Evidencia complementaria para comisiones médicas
@@ -2522,7 +2522,7 @@ DriveScore contribuye directamente a varios ODS:
 #### **Caso 2: Conductores Profesionales (VTC, Taxi, Flotas)**
 **Problema:** Difícil diferenciarse en mercados competitivos.
 
-**Solución con DriveScore:**
+**Solución con DriveSkore:**
 - Badge de "Conductor Profesional Verificado"
 - Reputación visible para pasajeros
 - Incentivo para mantener estándares altos
@@ -2531,7 +2531,7 @@ DriveScore contribuye directamente a varios ODS:
 #### **Caso 3: Conductores Noveles**
 **Problema:** Alta siniestralidad en primeros años de conducción.
 
-**Solución con DriveScore:**
+**Solución con DriveSkore:**
 - Sistema de mentoring (conductores expertos asesoran a noveles)
 - Gamificación de aprendizaje de buenos hábitos
 - Feedback constructivo de la comunidad
@@ -2540,7 +2540,7 @@ DriveScore contribuye directamente a varios ODS:
 #### **Caso 4: Víctimas de Accidentes y Familiares**
 **Problema:** Sensación de impunidad ante conductores imprudentes no sancionados oficialmente.
 
-**Solución con DriveScore:**
+**Solución con DriveSkore:**
 - Sistema de "justicia social" complementario (no sustitutivo) al legal
 - Visibilización de comportamientos peligrosos
 - Presión social positiva para cambio
@@ -2549,7 +2549,7 @@ DriveScore contribuye directamente a varios ODS:
 #### **Caso 5: Movilidad Urbana Sostenible**
 **Problema:** Conflicto entre diferentes usuarios de vía (coches, bicis, peatones).
 
-**Solución con DriveScore:**
+**Solución con DriveSkore:**
 - Evaluación cruzada (ciclistas evalúan conductores y viceversa)
 - Promoción de empatía entre usuarios de la vía
 - Datos para planificación urbana (zonas conflictivas)
@@ -2936,7 +2936,7 @@ La memoria del TFM debe contener los siguientes apartados:
 
 ### 16.1. Síntesis del Proyecto
 
-DriveScore representa una oportunidad única de aplicar tecnología y principios de evaluación social para abordar uno de los problemas más graves de la sociedad moderna: **los accidentes de tráfico**. Con 1.35 millones de muertes anuales a nivel global, existe una necesidad urgente de soluciones innovadoras que complementen las medidas tradicionales de control y sanción.
+DriveSkore representa una oportunidad única de aplicar tecnología y principios de evaluación social para abordar uno de los problemas más graves de la sociedad moderna: **los accidentes de tráfico**. Con 1.35 millones de muertes anuales a nivel global, existe una necesidad urgente de soluciones innovadoras que complementen las medidas tradicionales de control y sanción.
 
 El proyecto se fundamenta en una hipótesis sólida respaldada por estudios de psicología social y el éxito de plataformas como eBay, BlaBlaCar y Airbnb: **cuando las personas saben que sus acciones son observables y evaluables, modifican su comportamiento hacia prácticas más responsables**.
 
@@ -2978,7 +2978,7 @@ Este Trabajo Fin de Máster se diferencia de TFMs tradicionales en varios aspect
 
 1. **Impacto Social Real:** No es solo un ejercicio académico, sino el inicio de un proyecto con potencial de salvar vidas
 
-2. **Validación con Usuarios Reales:** A diferencia de muchos TFMs que quedan en prototipos no utilizados, DriveScore será probado por usuarios reales desde el primer mes
+2. **Validación con Usuarios Reales:** A diferencia de muchos TFMs que quedan en prototipos no utilizados, DriveSkore será probado por usuarios reales desde el primer mes
 
 3. **Visión de Negocio:** Incluye un plan completo de sostenibilidad y escalabilidad, no solo aspectos técnicos
 
@@ -3059,7 +3059,7 @@ Este proyecto representa la materialización de:
 
 ### 17.3. Para la Universidad de Huelva
 
-DriveScore puede ser:
+DriveSkore puede ser:
 
 - **Caso de éxito** de innovación universitaria con impacto social
 - **Modelo** de TFMs con visión emprendedora y de negocio
@@ -3309,7 +3309,7 @@ DriveScore puede ser:
 **Pantalla 1: Onboarding**
 ```
 ┌─────────────────────────┐
-│  DriveScore 🚗          │
+│  DriveSkore 🚗          │
 ├─────────────────────────┤
 │                         │
 │    [Ilustración de      │
@@ -3333,7 +3333,7 @@ DriveScore puede ser:
 **Pantalla 2: Captura de Matrícula**
 ```
 ┌─────────────────────────┐
-│  ← DriveScore           │
+│  ← DriveSkore           │
 ├─────────────────────────┤
 │                         │
 │  ┌─────────────────────┐│
@@ -3614,7 +3614,7 @@ if __name__ == "__main__":
 
 ### Anexo F: Plantilla de Entrevista a Usuarios Piloto
 
-**ENTREVISTA POST-PILOTO - DRIVESCORE**
+**ENTREVISTA POST-PILOTO - DriveSkore**
 
 **Fecha:** _______________  
 **Usuario:** _______________  
@@ -3623,9 +3623,9 @@ if __name__ == "__main__":
 
 **SECCIÓN 1: EXPERIENCIA GENERAL**
 
-1. ¿Cómo describirías DriveScore a un amigo en una frase?
+1. ¿Cómo describirías DriveSkore a un amigo en una frase?
 
-2. En una escala de 1-10, ¿qué probabilidad hay de que recomiendes DriveScore? ___/10  
+2. En una escala de 1-10, ¿qué probabilidad hay de que recomiendes DriveSkore? ___/10  
    ¿Por qué?
 
 3. ¿Qué fue lo que más te gustó de la app?
@@ -3672,16 +3672,16 @@ if __name__ == "__main__":
 13. ¿Has experimentado o te preocupa el uso malintencionado (evaluaciones falsas, acoso)?  
     □ Sí, lo he experimentado  □ Me preocupa  □ No me preocupa
 
-14. ¿Qué funcionalidad adicional te gustaría que tuviera DriveScore?
+14. ¿Qué funcionalidad adicional te gustaría que tuviera DriveSkore?
 
 15. ¿Pagarías por una versión Premium? ¿Qué funciones justificarían el pago?
 
 **SECCIÓN 5: VISIÓN DE FUTURO**
 
-16. ¿Crees que DriveScore podría mejorar la seguridad vial si muchas personas lo usaran?  
+16. ¿Crees que DriveSkore podría mejorar la seguridad vial si muchas personas lo usaran?  
     □ Definitivamente  □ Probablemente  □ Quizás  □ Probablemente no  □ Definitivamente no
 
-17. ¿Usarías tu puntuación DriveScore para obtener descuentos en seguros?  
+17. ¿Usarías tu puntuación DriveSkore para obtener descuentos en seguros?  
     □ Sí  □ No  □ Depende
 
 18. Comentarios finales, sugerencias o ideas:
@@ -3694,7 +3694,7 @@ if __name__ == "__main__":
 
 ## CONCLUSIÓN FINAL DE LA PROPUESTA
 
-DriveScore no es solo un Trabajo Fin de Máster; es el punto de partida de un movimiento hacia una **cultura vial más segura, respetuosa y consciente**. 
+DriveSkore no es solo un Trabajo Fin de Máster; es el punto de partida de un movimiento hacia una **cultura vial más segura, respetuosa y consciente**. 
 
 Combinando tecnología puntera (IA, apps móviles, arquitecturas cloud), principios de economía colaborativa probados, y una misión social profunda, este proyecto tiene el potencial de:
 
@@ -3725,7 +3725,7 @@ Octubre 2025
 ---
 
 *"Cuando las personas saben que están siendo observadas, se comportan mejor. No por temor al castigo, sino por respeto a la comunidad de la que forman parte."*  
-— Principio fundamental de DriveScore
+— Principio fundamental de DriveSkore
 
 ### Con la Ayuda de Claude AI
 - https://claude.ai/public/artifacts/f9057139-b87a-4b7c-9f2f-8198639bd85a
