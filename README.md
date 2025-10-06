@@ -3730,4 +3730,4 @@ Octubre 2025
 ### Con la Ayuda de Claude AI
 - https://claude.ai/public/artifacts/f9057139-b87a-4b7c-9f2f-8198639bd85a
 - https://claude.ai/share/19b22b0a-4fd0-4e22-a3ef-4483c1be15be
-
+- https://claude.ai/public/artifacts/3593b397-a8ff-43db-8981-25c987d5c1bf
