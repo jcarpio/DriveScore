@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DriveScore - Propuesta TFM</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 1in;
+            background: white;
+            color: #000;
+        }
+        h1 {
+            font-size: 24pt;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 12pt;
+            color: #000;
+        }
+        h2 {
+            font-size: 18pt;
+            font-weight: bold;
+            margin-top: 24pt;
+            margin-bottom: 12pt;
+            color: #000;
+        }
+        h3 {
+            font-size: 14pt;
+            font-weight: bold;
+            margin-top: 18pt;
+            margin-bottom: 10pt;
+            color: #000;
+        }
+        h4 {
+            font-size: 12pt;
+            font-weight: bold;
+            margin-top: 14pt;
+            margin-bottom: 8pt;
+            color: #000;
+        }
+        p {
+            margin-bottom: 12pt;
+            text-align: justify;
+        }
+        .center {
+            text-align: center;
+        }
+        .bold {
+            font-weight: bold;
+        }
+        ul, ol {
+            margin-bottom: 12pt;
+            padding-left: 40px;
+        }
+        li {
+            margin-bottom: 6pt;
+        }
+        .info-box {
+            background-color: #f5f5f5;
+            padding: 12pt;
+            margin-bottom: 12pt;
+            border-left: 4px solid #4285f4;
+        }
+        .reference {
+            font-size: 10pt;
+            margin-bottom: 8pt;
+            padding-left: 20px;
+            text-indent: -20px;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin: 24pt 0;
+        }
+    </style>
+</head>
+<body>
+
+<h1>PROPUESTA DE TRABAJO FIN DE MÁSTER</h1>
+<h2 class="center">DriveScore - Plataforma de Evaluación Social de Conducción para la Mejora de la Seguridad Vial</h2>
+
+<p class="center"><strong>Máster Universitario en Ingeniería Informática</strong><br>
+<strong>Escuela Técnica Superior de Ingeniería - Universidad de Huelva</strong></p>
+
+<hr>
+
+<h2>INFORMACIÓN GENERAL</h2>
+
+<div class="info-box">
+<p><strong>Título del Proyecto:</strong> DriveScore - Plataforma de Evaluación Social de Conducción para la Mejora de la Seguridad Vial</p>
+
+<p><strong>Alumno:</strong> Gamaliel Moreno Sánchez</p>
+
+<p><strong>Director:</strong> Dr. José Carpio Cañada<br>
+Departamento de Tecnologías de la Información<br>
+Área de Ciencias de la Computación</p>
+
+<p><strong>Duración estimada:</strong> 3 meses (12 ECTS - 300 horas)</p>
+
+<p><strong>Curso académico:</strong> 2024-2025</p>
+</div>
+
+<hr>
+
+<h2>RESUMEN EJECUTIVO</h2>
+
+<p>DriveScore es una plataforma tecnológica innovadora que aplica el concepto de evaluación social entre pares al ámbito de la conducción de vehículos. Inspirada en modelos exitosos como eBay, BlaBlaCar, Wallapop y CouchSurfing, esta aplicación permitirá a los conductores evaluarse mutuamente, creando así un sistema de reputación que incentive conductas responsables y seguras en las vías públicas.</p>
+
+<p>El proyecto surge de una necesidad real: la dificultad de demostrar objetivamente el historial de conducción segura de un conductor, especialmente en situaciones administrativas como renovaciones de permisos de conducir. Más allá de resolver este problema particular, DriveScore aspira a transformar la cultura vial global mediante la aplicación del concepto de "aldea global digital", donde los conductores son conscientes de que sus acciones son observables y evaluables por la comunidad.</p>
+
+<p><strong>Palabras clave:</strong> Evaluación social, seguridad vial, gamificación, responsabilidad cívica, tecnología móvil, reconocimiento de matrículas, inteligencia artificial, software libre.</p>
+
+<hr>
+
+<h2>1. MOTIVACIÓN Y CONTEXTO</h2>
+
+<h3>1.1. Origen del Proyecto</h3>
+
+<p>El proyecto DriveScore nace de una experiencia personal del director del proyecto, el Dr. José Carpio Cañada, quien tras 30 años de conducción sin accidentes se ha encontrado con barreras administrativas para renovar su permiso de conducir debido a una condición médica (Adrenoleucodistrofia ALD-X). A pesar de tener un historial impecable de conducción y encontrarse en proceso de recuperación, no existe un mecanismo objetivo que permita demostrar su competencia como conductor más allá de informes médicos.</p>
+
+<p>Esta situación evidencia una carencia sistémica: <strong>la ausencia de un sistema de acreditación positiva del comportamiento vial</strong>.</p>
+
+<h3>1.2. El Problema Global de la Seguridad Vial</h3>
+
+<p>El informe Global Status Report on Road Safety 2023 de la Organización Mundial de la Salud muestra que el número anual de muertes por tráfico ha disminuido ligeramente a 1.19 millones, evidenciando que los esfuerzos de mejora en seguridad vial están teniendo impacto [1]. Sin embargo, las cifras siguen siendo alarmantes:</p>
+
+<ul>
+<li>Los accidentes de tráfico son la principal causa de muerte entre personas de 5 a 29 años</li>
+<li>El 90% de las muertes por accidentes de tráfico ocurren en países de ingresos bajos y medianos</li>
+<li>El costo económico global se estima en un 3% del PIB mundial</li>
+</ul>
+
+<p>En España específicamente, durante 2023 fallecieron 1.806 personas en 101.306 siniestros viales, representando un aumento del 3% respecto al año anterior según datos de la Dirección General de Tráfico [2].</p>
+
+<p>La mayoría de estos accidentes están relacionados con comportamientos evitables: exceso de velocidad, conducción agresiva, no respetar prioridades, distracciones al volante, etc.</p>
+
+<h3>1.3. El Anonimato como Factor de Riesgo</h3>
+
+<p>La investigación en psicología social respalda firmemente la relación entre anonimato y comportamiento antisocial. Estudios demuestran que el anonimato percibido incrementa comportamientos antisociales al reducir la autoconciencia y debilitar las normas sociales, fenómeno conocido como "desindividuación" [3,4]. En la carretera, este fenómeno se manifiesta en:</p>
+
+<ul>
+<li>Conducción agresiva</li>
+<li>Falta de cortesía vial</li>
+<li>No ceder el paso</li>
+<li>Infracciones deliberadas</li>
+<li>Comportamientos de riesgo</li>
+</ul>
+
+<p>La teoría SIDE (Social Identity Model of Deindividuation Effects) demuestra que el anonimato fortalece la conformidad grupal y reduce la autoconciencia individual, resultando en comportamientos pro o antisociales dependiendo de las normas grupales prevalentes [5].</p>
+
+<p>Sin embargo, investigaciones recientes también muestran que el anonimato puede tener efectos prosociales al reducir el riesgo percibido, lo que sugiere que el contexto y las normas grupales son determinantes críticos del comportamiento [6]. Usuarios anónimos en Internet muestran niveles más bajos de deseabilidad social y mayor honestidad en sus respuestas, sugiriendo que la identificabilidad afecta el comportamiento auto-reportado [7].</p>
+
+<p><strong>Hipótesis central del proyecto:</strong> Si los conductores supieran que sus acciones pueden ser evaluadas y que esta evaluación queda registrada en su perfil público, modificarían su comportamiento hacia prácticas más seguras y corteses.</p>
+
+<h3>1.4. Precedentes Exitosos de Evaluación Social</h3>
+
+<p>El éxito de plataformas basadas en la evaluación entre pares demuestra la viabilidad del concepto. Investigaciones académicas sobre BlaBlaCar confirman que los sistemas de reputación en plataformas peer-to-peer influyen significativamente en el comportamiento de los usuarios: conductores con mayor experiencia y mejores evaluaciones ajustan precios estratégicamente y venden más asientos, demostrando que la reputación tiene valor económico tangible [8,9].</p>
+
+<p>El análisis empírico del sistema de reputación de eBay demuestra que las evaluaciones entre pares pueden efectivamente generar confianza en transacciones entre desconocidos y disuadir comportamientos oportunistas [10].</p>
+
+<p><strong>Ejemplos exitosos:</strong></p>
+
+<ul>
+<li><strong>eBay:</strong> Sistema de reputación que ha permitido construir confianza en transacciones entre desconocidos, facilitando un mercado global de comercio electrónico C2C.</li>
+<li><strong>BlaBlaCar:</strong> Ha transportado a más de 100 millones de personas gracias a un sistema de evaluaciones mutuas que genera confianza entre conductores y pasajeros.</li>
+<li><strong>Airbnb:</strong> Ha revolucionado el sector del alojamiento mediante evaluaciones bidireccionales.</li>
+<li><strong>Wallapop:</strong> Ha creado confianza en transacciones locales de segunda mano.</li>
+</ul>
+
+<p>Estos casos demuestran que:</p>
+<ol>
+<li>Las personas modifican su comportamiento cuando saben que serán evaluadas</li>
+<li>Los sistemas de reputación generan confianza y mejoran las interacciones</li>
+<li>La presión social positiva puede escalar para generar cambios culturales significativos</li>
+</ol>
+
+<hr>
+
+<h2>2. MISIÓN, VISIÓN Y VALORES</h2>
+
+<h3>2.1. Misión</h3>
+
+<p>Aportar los conocimientos tecnológicos y empresariales necesarios para desarrollar e implementar soluciones innovadoras que mejoren la vida de las personas, centrándose en la seguridad vial mediante la aplicación de tecnologías de evaluación social y gamificación.</p>
+
+<h3>2.2. Visión</h3>
+
+<p>Hacer que los ciudadanos del planeta conduzcan de manera más segura, cortés y responsable gracias al concepto de la "aldea global digital", donde las personas no son anónimas y están motivadas intrínsecamente a comportarse de manera ejemplar, creando así una cultura vial global basada en el respeto mutuo y la responsabilidad compartida.</p>
+
+<h3>2.3. Valores Fundamentales</h3>
+
+<p><strong>Honestidad:</strong> Transparencia total en el funcionamiento del sistema, protección contra manipulaciones y valoraciones falsas, comunicación clara sobre el uso de datos.</p>
+
+<p><strong>Cuidado del Planeta:</strong> Reducción de accidentes y congestión vehicular que contribuye a menor contaminación. Promoción de conducción eficiente que reduce emisiones. Uso de infraestructura tecnológica sostenible y eficiente energéticamente.</p>
+
+<p><strong>Tratar al Prójimo como a Ti Mismo:</strong> Fomentar la empatía y cortesía en la carretera. Crear una comunidad que se cuida mutuamente. Promover el respeto por todos los usuarios de la vía (conductores, ciclistas, peatones).</p>
+
+<p><strong>Optimización del Tiempo:</strong> Utilizar software libre y herramientas existentes para maximizar la eficiencia del desarrollo. Enfoque ágil centrado en entregar valor rápidamente a los usuarios.</p>
+
+<hr>
+
+<h2>3. OBJETIVOS DEL PROYECTO</h2>
+
+<h3>3.1. Objetivo General</h3>
+
+<p>Diseñar, desarrollar y validar una plataforma tecnológica móvil que permita a los conductores evaluarse mutuamente de forma segura, justa y verificable, creando así un sistema de reputación vial que incentive comportamientos responsables y contribuya a la mejora de la seguridad vial global.</p>
+
+<h3>3.2. Objetivos Específicos</h3>
+
+<h4>Objetivos Técnicos:</h4>
+
+<ol>
+<li><strong>Desarrollar una aplicación móvil multiplataforma</strong> utilizando tecnologías de software libre que permita:
+<ul>
+<li>Captura de imágenes de matrículas vehiculares</li>
+<li>Reconocimiento automático de matrículas mediante IA</li>
+<li>Sistema de evaluación con puntuación y comentarios</li>
+<li>Visualización de perfil de reputación del conductor</li>
+</ul>
+</li>
+
+<li><strong>Implementar un sistema de reconocimiento de matrículas</strong> basado en visión artificial y machine learning que funcione en condiciones reales de uso (diferentes ángulos, iluminación, distancias).</li>
+
+<li><strong>Diseñar una arquitectura de backend escalable</strong> que soporte:
+<ul>
+<li>Gestión de usuarios y autenticación segura</li>
+<li>Almacenamiento y procesamiento de evaluaciones</li>
+<li>Cálculo de puntuaciones de reputación</li>
+<li>API REST para la comunicación con la aplicación móvil</li>
+</ul>
+</li>
+
+<li><strong>Establecer mecanismos de verificación</strong> para prevenir:
+<ul>
+<li>Evaluaciones fraudulentas</li>
+<li>Acoso o uso malintencionado</li>
+<li>Manipulación del sistema de puntuación</li>
+<li>Suplantación de identidad</li>
+</ul>
+</li>
+
+<li><strong>Implementar un sistema de gamificación</strong> que incluya:
+<ul>
+<li>Niveles de reputación</li>
+<li>Insignias por comportamientos ejemplares</li>
+<li>Ranking de conductores responsables</li>
+<li>Estadísticas personales y comparativas</li>
+</ul>
+</li>
+</ol>
+
+<h4>Objetivos de Investigación y Análisis:</h4>
+
+<ol start="6">
+<li><strong>Realizar un estudio de viabilidad técnica y económica</strong> que analice:
+<ul>
+<li>Tecnologías disponibles y su idoneidad</li>
+<li>Costos de infraestructura y mantenimiento</li>
+<li>Modelos de monetización sostenibles</li>
+<li>Análisis competitivo</li>
+</ul>
+</li>
+
+<li><strong>Analizar el marco legal y normativo</strong> aplicable:
+<ul>
+<li>Cumplimiento con GDPR y protección de datos</li>
+<li>Regulaciones sobre captura de imágenes en vía pública</li>
+<li>Aspectos legales de la evaluación de terceros</li>
+<li>Propiedad intelectual y licenciamiento</li>
+</ul>
+</li>
+
+<li><strong>Diseñar una estrategia de adopción y escalabilidad</strong> que contemple:
+<ul>
+<li>Plan de lanzamiento y piloto inicial</li>
+<li>Estrategias de crecimiento de usuarios</li>
+<li>Alianzas estratégicas (DGT, aseguradoras, fabricantes)</li>
+<li>Expansión internacional</li>
+</ul>
+</li>
+</ol>
+
+<h4>Objetivos de Validación:</h4>
+
+<ol start="9">
+<li><strong>Desarrollar un prototipo funcional (MVP)</strong> en el primer mes que pueda ser probado por usuarios reales.</li>
+
+<li><strong>Realizar pruebas de usabilidad y aceptación</strong> con un grupo piloto de usuarios, recopilando feedback para mejoras iterativas.</li>
+
+<li><strong>Validar las hipótesis del proyecto</strong> sobre el cambio de comportamiento de los conductores mediante métricas cuantitativas y cualitativas.</li>
+</ol>
+
+<hr>
+
+<h2>4. ESTADO DEL ARTE Y ANÁLISIS COMPETITIVO</h2>
+
+<h3>4.1. Aplicaciones de Monitoreo de Conducción</h3>
+
+<p>Existen varias aplicaciones en el mercado que monitorizan hábitos de conducción, pero con enfoques diferentes a DriveScore:</p>
+
+<h4>TrueMotion / TrueMotion Family</h4>
+<ul>
+<li><strong>Enfoque:</strong> Monitoreo individual mediante sensores del smartphone</li>
+<li><strong>Funcionalidad:</strong> Calcula puntuaciones basadas en velocidad, frenadas, uso del móvil</li>
+<li><strong>Uso:</strong> Principalmente para descuentos en seguros y comparativas familiares</li>
+<li><strong>Limitación:</strong> No incluye evaluación social por otros conductores</li>
+</ul>
+
+<h4>EverDrive / DriveWell (Cambridge Mobile Telematics)</h4>
+<ul>
+<li><strong>Enfoque:</strong> Telemática y scoring individual</li>
+<li><strong>Funcionalidad:</strong> Registra comportamientos y entrega un "Drive score"</li>
+<li><strong>Uso:</strong> Competición dentro de comunidades cerradas, integración con aseguradoras</li>
+<li><strong>Limitación:</strong> Sistema cerrado, sin evaluación abierta entre conductores</li>
+</ul>
+
+<h4>BlaBlaCar</h4>
+<ul>
+<li><strong>Enfoque:</strong> Compartir coche para viajes largos</li>
+<li><strong>Funcionalidad:</strong> Sistema de evaluaciones entre conductores y pasajeros</li>
+<li><strong>Diferencia con DriveScore:</strong> Limitado a usuarios que comparten coche, no evalúa comportamiento general en carretera</li>
+</ul>
+
+<h3>4.2. Análisis de Gaps y Oportunidades</h3>
+
+<p><strong>Ninguna de las soluciones existentes combina:</strong></p>
+<ol>
+<li>Evaluación social abierta entre conductores (sin necesidad de interacción previa)</li>
+<li>Enfoque en comportamiento vial general (no solo telemática personal)</li>
+<li>Democratización del acceso (solo requiere smartphone)</li>
+<li>Visión de comunidad global (no limitada a seguros o grupos cerrados)</li>
+<li>Reconocimiento automático de vehículos para facilitar evaluaciones</li>
+</ol>
+
+<p><strong>DriveScore se diferencia por:</strong></p>
+<ul>
+<li><strong>Apertura:</strong> Cualquier conductor puede evaluar a cualquier otro</li>
+<li><strong>Universalidad:</strong> No requiere relación previa ni hardware adicional</li>
+<li><strong>Foco social:</strong> Prioriza el cambio cultural sobre la telemática individual</li>
+<li><strong>Reconocimiento IA:</strong> Facilita la evaluación mediante identificación automática de matrículas</li>
+<li><strong>Transparencia:</strong> Perfil público de reputación vial</li>
+</ul>
+
+<h3>4.3. Tecnologías de Reconocimiento de Matrículas</h3>
+
+<p>OpenALPR es una biblioteca open source de reconocimiento automático de matrículas escrita en C++ con bindings en múltiples lenguajes, que analiza imágenes y video para identificar caracteres de placas vehiculares [11]. Las soluciones comerciales modernas como Plate Recognizer ofrecen sistemas ALPR optimizados con velocidades de inferencia de 50-100ms, soportando más de 90 países y procesando múltiples cámaras simultáneamente sin requerir GPU [12].</p>
+
+<p>Sin embargo, los sistemas ALPR enfrentan desafíos significativos: deben procesar placas bajo diferentes condiciones ambientales (iluminación variable, clima adverso) y generalizar para placas de diferentes naciones con distintos colores, idiomas, fuentes y formatos [13]. El uso de modelos preentrenados con transfer learning, como los disponibles en NVIDIA TAO Toolkit, permite afinar sistemas de detección y reconocimiento para lograr alta precisión incluso con datasets reducidos [14].</p>
+
+<h3>4.4. Waze como Referencia de Red Social Vial</h3>
+
+<p><strong>Waze</strong> es el ejemplo más exitoso de red social aplicada al tráfico:</p>
+<ul>
+<li>140 millones de usuarios activos</li>
+<li>Compartición de información en tiempo real (accidentes, policía, obstáculos)</li>
+<li>Gamificación (puntos, rangos, logros)</li>
+<li>Comunidad colaborativa</li>
+</ul>
+
+<p><strong>Aprendizajes de Waze para DriveScore:</strong></p>
+<ul>
+<li>La gamificación funciona para engagement en contextos de conducción</li>
+<li>Los usuarios están dispuestos a contribuir información si ven beneficios</li>
+<li>La comunidad puede autoregularse con buenos mecanismos</li>
+<li>La integración simple (solo app móvil) facilita adopción masiva</li>
+</ul>
+
+<hr>
+
+<h2>5. METODOLOGÍA DE DESARROLLO</h2>
+
+<h3>5.1. Marco Metodológico: Desarrollo Ágil Centrado en el Usuario</h3>
+
+<p>El proyecto adoptará una metodología híbrida basada en:</p>
+
+<p><strong>Lean Startup [15]:</strong></p>
+<ul>
+<li>Construir → Medir → Aprender</li>
+<li>MVP (Minimum Viable Product) en el primer mes</li>
+<li>Iteraciones rápidas basadas en feedback real</li>
+</ul>
+
+<p><strong>Scrum Adaptado:</strong></p>
+<ul>
+<li>Sprints de 2 semanas</li>
+<li>Revisiones continuas con director</li>
+<li>Retrospectivas para mejora continua</li>
+</ul>
+
+<p><strong>Design Thinking:</strong></p>
+<ul>
+<li>Empatía con usuarios (conductores, peatones, ciclistas)</li>
+<li>Prototipado rápido</li>
+<li>Testeo con usuarios reales</li>
+</ul>
+
+<h3>5.2. Principios de Desarrollo</h3>
+
+<ol>
+<li><strong>Software Libre First:</strong> Priorizar herramientas y frameworks open source</li>
+<li><strong>Cloud Native:</strong> Arquitectura cloud para escalabilidad y costos bajos</li>
+<li><strong>Mobile First:</strong> Diseño prioritario para dispositivos móviles</li>
+<li><strong>API First:</strong> Arquitectura desacoplada que facilite futuras integraciones</li>
+<li><strong>Privacy by Design:</strong> Protección de datos desde el diseño inicial [16]</li>
+<li><strong>Continuous Deployment:</strong> Entregas continuas al entorno de pruebas</li>
+</ol>
+
+<h3>5.3. Gamificación en Seguridad Vial</h3>
+
+<p>La aplicación de gamificación a la conducción está respaldada por evidencia empírica sólida. Investigaciones demuestran que las tecnologías digitales gamificadas pueden re-involucrar a conductores en tareas de conducción segura, contribuyendo a reducciones significativas de velocidad y mejora en conducción anticipatoria [17,18]. Estudios experimentales confirman que la gamificación mejora el desempeño de conducción y minimiza errores, especialmente al conducir bajo regulaciones desconocidas [19,20].</p>
+
+<p>Investigaciones con conductores jóvenes revelan que menos del 5% no están interesados en esquemas gamificados de incentivos, sugiriendo alta receptividad a este enfoque [21]. Una revisión sistemática confirma que los puntos de recompensa y tablas de clasificación son las mecánicas más utilizadas y efectivas, aunque se requiere mayor investigación empírica para establecer las mejores prácticas [22].</p>
+
+<hr>
+
+<h2>6. MARCO LEGAL Y PROTECCIÓN DE DATOS</h2>
+
+<h3>6.1. Cumplimiento del GDPR</h3>
+
+<p>El GDPR define claramente que las matrículas vehiculares constituyen datos personales, ya que son información que puede llevar a la identificación directa o indirecta de personas naturales [23,24]. Las matrículas califican como datos personales bajo GDPR porque su propósito es facilitar la identificación del propietario del vehículo mediante registros accesibles por terceros autorizados, como autoridades policiales [25].</p>
+
+<p>El cumplimiento GDPR en sistemas de reconocimiento automático de matrículas requiere implementación on-premise donde el cliente mantiene control total sobre los datos procesados, con capacidades de exportación y eliminación para satisfacer derechos de portabilidad y olvido [26]. Las autoridades de protección de datos especifican que estos sistemas requieren base legal apropiada (consentimiento, interés legítimo o cumplimiento contractual), transparencia mediante información previa clara, y derecho de los usuarios a retirarse antes de que se capture su matrícula [27].</p>
+
+<h3>6.2. Consideraciones Éticas del Anonimato Parcial</h3>
+
+<p>La investigación sobre anonimato en redes sociales muestra efectos duales: mientras el anonimato puede facilitar comportamientos agresivos, también puede reducir el riesgo percibido y fomentar valentía moral, permitiendo a individuos defender causas justas sin temor a represalias [6]. Estudios demuestran que usuarios anónimos muestran niveles más bajos de deseabilidad social y mayor honestidad, sugiriendo que sistemas con identificación parcial (como DriveScore) deben equilibrar cuidadosamente accountability con libertad de expresión [7].</p>
+
+<h3>6.3. Medidas de Protección Implementadas</h3>
+
+<ol>
+<li><strong>Encriptación de datos sensibles:</strong> Matrículas almacenadas con AES-256</li>
+<li><strong>Consentimiento explícito:</strong> Al registro, los usuarios aceptan términos claros</li>
+<li><strong>Derecho al olvido:</strong> Posibilidad de eliminar cuenta y todos los datos</li>
+<li><strong>Anonimización:</strong> Evaluadores mostrados solo con iniciales</li>
+<li><strong>Transparencia:</strong> Política de privacidad accesible y comprensible</li>
+</ol>
+
+<hr>
+
+<h2>7. CONTRIBUCIÓN A OBJETIVOS DE DESARROLLO SOSTENIBLE</h2>
+
+<p>DriveScore contribuye directamente a varios Objetivos de Desarrollo Sostenible de las Naciones Unidas [28]:</p>
+
+<h3>ODS 3: Salud y Bienestar</h3>
+<ul>
+<li><strong>Meta 3.6:</strong> Reducir a la mitad muertes por accidentes de tráfico</li>
+<li><strong>Contribución:</strong> Incentivo de conducción responsable y reducción de comportamientos de riesgo</li>
+</ul>
+
+<h3>ODS 11: Ciudades y Comunidades Sostenibles</h3>
+<ul>
+<li><strong>Meta 11.2:</strong> Sistemas de transporte seguros y sostenibles</li>
+<li><strong>Contribución:</strong> Cultura vial más segura y respetuosa, reducción de congestión</li>
+</ul>
+
+<h3>ODS 13: Acción por el Clima</h3>
+<ul>
+<li><strong>Contribución:</strong> Conducción eficiente reduce emisiones, menor número de accidentes reduce recursos de emergencia</li>
+</ul>
+
+<h3>ODS 16: Paz, Justicia e Instituciones Sólidas</h3>
+<ul>
+<li><strong>Meta 16.6:</strong> Instituciones eficaces y transparentes</li>
+<li><strong>Contribución:</strong> Sistema de rendición de cuentas ciudadano complementario</li>
+</ul>
+
+<hr>
+
+<h2>8. CONCLUSIONES</h2>
+
+<p>DriveScore representa una innovación significativa en la aplicación de tecnologías de evaluación social al ámbito de la seguridad vial. El proyecto se fundamenta en evidencia científica sólida sobre el impacto del anonimato en el comportamiento social, la efectividad de sistemas de reputación en plataformas peer-to-peer, y el potencial de la gamificación para modificar conductas.</p>
+
+<p>La viabilidad técnica está respaldada por tecnologías maduras de reconocimiento de matrículas y arquitecturas cloud escalables. El marco legal, aunque complejo, es navegable mediante implementación cuidadosa del GDPR y principios de privacy by design. El análisis competitivo demuestra un espacio de mercado sin cubrir: ninguna solución existente combina evaluación social abierta, reconocimiento automático de vehículos y enfoque en cambio cultural.</p>
+
+<p>El proyecto tiene potencial de generar impacto social significativo en la reducción de accidentes de tráfico y mejora de la convivencia vial, contribuyendo a múltiples Objetivos de Desarrollo Sostenible. Su desarrollo como Trabajo Fin de Máster permitirá validar hipótesis clave y establecer las bases para una posible implementación a mayor escala.</p>
+
+<hr>
+
+<h2>REFERENCIAS</h2>
+
+<div class="reference">[1] World Health Organization (WHO). (2023). <em>Global Status Report on Road Safety 2023.</em> Geneva: World Health Organization. ISBN 978-92-4-008651-7.</div>
+
+<div class="reference">[2] Dirección General de Tráfico (DGT). (2024). <em>Anuario Estadístico de Accidentes 2023.</em> Ministerio del Interior, España.</div>
+
+<div class="reference">[3] Reicher, S. D., Spears, R., Postmes, T., & Kende, A. (2016). Disputing deindividuation: Why negative group behaviours derive from group norms, not group immersion. <em>Behavioral and Brain Sciences</em>, 39, e161.</div>
+
+<div class="reference">[4] Barlett, C. P., Gentile, D. A., & Chew, C. (2016). Predicting cyberbullying from anonymity. <em>Psychology of Popular Media Culture</em>, 5(2), 171-180.</div>
+
+<div class="reference">[5] Postmes, T., Spears, R., & Lea, M. (2001). Social influence in computer-mediated communication: The effects of anonymity on group behavior. <em>Personality and Social Psychology Bulletin</em>, 27(10), 1243-1254.</div>
+
+<div class="reference">[6] Pan, X., Wang, Q., & Hou, Y. (2023). Are we braver in cyberspace? Social media anonymity enhances moral courage. <em>Computers in Human Behavior</em>, 146, 107814.</div>
+
+<div class="reference">[7] Joinson, A. N. (1999). Social desirability, anonymity, and Internet-based questionnaires. <em>Behavior Research Methods, Instruments, & Computers</em>, 31(3), 433-438.</div>
+
+<div class="reference">[8] Farajallah, M., Hammond, R. G., & Pénard, T. (2019). What drives pricing behavior in Peer-to-Peer markets? Evidence from the carsharing platform BlaBlaCar. <em>Information Economics and Policy</em>, 48, 15-31.</div>
+
+<div class="reference">[9] Shaheen, S., Cohen, A., & Zohdy, I. (2016). <em>Shared Mobility: Current Practices and Guiding Principles.</em> U.S. Department of Transportation, Federal Highway Administration.</div>
+
+<div class="reference">[10] Resnick, P., & Zeckhauser, R. (2002). Trust Among Strangers in Internet Transactions: Empirical Analysis of eBay's Reputation System. In <em>The Economics of the Internet and E-Commerce</em> (pp. 127-157). Emerald Group Publishing.</div>
+
+<div class="reference">[11] OpenALPR Project. (2024). <em>OpenALPR - Automatic License Plate Recognition Library.</em> GitHub Repository. https://github.com/openalpr/openalpr</div>
+
+<div class="reference">[12] Plate Recognizer. (2025). <em>Automatic License Plate Recognition - High Accuracy ALPR.</em> Technical Documentation. https://platerecognizer.com/</div>
+
+<div class="reference">[13] Du, S., Ibrahim, M., Shehata, M., & Badawy, W. (2013). Automatic License Plate Recognition (ALPR): A State-of-the-Art Review. <em>IEEE Transactions on Circuits and Systems for Video Technology</em>, 23(2), 311-325.</div>
+
+<div class="reference">[14] NVIDIA Developer. (2022). Creating a Real-Time License Plate Detection and Recognition App. <em>NVIDIA Technical Blog</em>. https://developer.nvidia.com/blog/</div>
+
+<div class="reference">[15] Ries, E. (2011). <em>The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses.</em> Crown Business.</div>
+
+<div class="reference">[16] Regulation (EU) 2016/679. <em>General Data Protection Regulation (GDPR).</em> Official Journal of the European Union, L 119/1, 4 May 2016.</div>
+
+<div class="reference">[17] Steinberger, F., Schroeter, R., Foth, M., & Johnson, D. (2017). Designing gamified applications that make safe driving more engaging. In <em>Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems</em> (pp. 2826-2839). ACM.</div>
+
+<div class="reference">[18] Steinberger, F., Schroeter, R., & Watling, C. N. (2017). From road distraction to safe driving: Evaluating the effects of boredom and gamification on driving behaviour, physiological arousal, and subjective experience. <em>Computers in Human Behavior</em>, 75, 714-726.</div>
+
+<div class="reference">[19] Roboey, A., & Kavakli, M. (2023). The Impact of Gamifications and Serious Games on Driving under Unfamiliar Traffic Regulations. <em>Applied Sciences</em>, 13(5), 3262.</div>
+
+<div class="reference">[20] Hamari, J., Koivisto, J., & Sarsa, H. (2014). Does gamification work? A literature review of empirical studies on gamification. In <em>47th Hawaii International Conference on System Sciences</em> (pp. 3025-3034). IEEE.</div>
+
+<div class="reference">[21] Yen, B. T. H., Fu, C., & Chiou, Y. C. (2022). Young Drivers' Preferences for Gamification Schemes Toward Safer Driving Behaviors: A Pilot Study. <em>Transportation Research Record</em>, 2676(8), 398-411.</div>
+
+<div class="reference">[22] Van Belle, J., Moeyersons, J., & Veeckman, C. (2024). Gamification in the Transport and Mobility Sector: A Systematic Review. <em>Transportation Research Part F: Traffic Psychology and Behaviour</em>, 103, 428-447.</div>
+
+<div class="reference">[23] European Union. (2016). Regulation (EU) 2016/679 of the European Parliament and of the Council. <em>Official Journal of the European Union</em>, L119, 1-88.</div>
+
+<div class="reference">[24] GDPR.eu. (2019). What is considered personal data under the EU GDPR? https://gdpr.eu/eu-gdpr-personal-data/</div>
+
+<div class="reference">[25] Ritsema van Eck, G. J., & Oerlemans, M. (2019). Capturing licence plates: Police-citizen interaction apps from an EU data protection perspective. <em>Computer Law & Security Review</em>, 35(4), 1-21.</div>
+
+<div class="reference">[26] Plate Recognizer. (2025). GDPR Compliance for ANPR. Technical Documentation. https://platerecognizer.com/gdpr-compliance-for-anpr/</div>
+
+<div class="reference">[27] Piltz, C. (2020). German Data Protection Authority: Specifications for the use of license plate recognition systems by companies. LinkedIn Article, June 16, 2020.</div>
+
+<div class="reference">[28] United Nations. (2015). <em>Transforming our world: The 2030 Agenda for Sustainable Development.</em> Resolution A/RES/70/1.</div>
+
+<hr>
+
+<p class="center"><strong>Documento preparado por:</strong> Gamaliel Moreno Sánchez<br>
+<strong>Bajo la dirección de:</strong> Dr. José Carpio Cañada<br>
+<strong>Universidad de Huelva</strong> - Escuela Técnica Superior de Ingeniería<br>
+<strong>Fecha:</strong> Octubre 2025
+<strong><a href="https://claude.ai/public/artifacts/62e0f1cc-5789-4cf4-9a9d-4a5151783fc6>Con la ayuda de Claude AI</a></strong>
+</p>
+</body>
+</html>
