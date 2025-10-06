@@ -592,4 +592,9 @@ DriveScore seguirá una arquitectura de **tres capas** con principios de **micro
 
 ### 7.3. Modelo de Datos (Entidades Principales)
 
+
+### Con la Ayuda de Claude AI
+https://claude.ai/public/artifacts/f9057139-b87a-4b7c-9f2f-8198639bd85a
+
+
 #### **
