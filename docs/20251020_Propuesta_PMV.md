@@ -758,13 +758,15 @@ Documentos necesarios (ya preparados):
 ├─ Política de Privacidad
 ├─ Términos y Condiciones
 ├─ Política de Cookies
-├─ DPO (# RoadShare: Sistema de Reconocimiento Social para Conductores Responsables
+├─ DPO (
+
+---
 
 ## Documento Técnico del Proyecto
 
 **Versión:** 1.0  
 **Fecha:** Octubre 2025  
-**Autores:** Equipo RoadShare  
+**Autores:** Equipo DriveSkore  
 **Estado:** Diseño MVP
 
 ---
@@ -1121,7 +1123,7 @@ Algunas personas rechazan cualquier forma de tracking, incluso voluntario.
 
 ### 3.1 Visión del Producto
 
-**RoadShare** es una aplicación móvil que transforma la conducción en una experiencia social positiva, permitiendo a los usuarios reconocer y ser reconocidos por comportamientos seguros en la vía, especialmente el respeto a usuarios vulnerables como ciclistas y peatones.
+**DriveSkore** es una aplicación móvil que transforma la conducción en una experiencia social positiva, permitiendo a los usuarios reconocer y ser reconocidos por comportamientos seguros en la vía, especialmente el respeto a usuarios vulnerables como ciclistas y peatones.
 
 #### 3.1.1 Propuesta de Valor
 
@@ -1937,10 +1939,7 @@ function xpForNextLevel(currentLevel) {
    ├─ "Local hero" (más votos en tu ciudad)
    └─ "Night rider" (conducción nocturna)
 
-
-
 -------------------8<------------------------
-
 
 FASE 5: Analytics (Background)
 ──────────────────────────────
@@ -2244,7 +2243,7 @@ Las compañías de seguros tienen un incentivo económico directo en reducir sin
 ```
 Tier 1 - Descuento Básico (5-10%):
 ├─ Requisitos:
-│  ├─ Usuario activo en RoadShare
+│  ├─ Usuario activo en DriveSkore
 │  ├─ Mínimo 50 XP/mes
 │  └─ Rating ≥ 3.5⭐
 └─ Aseguradora paga: 2€/mes por usuario
@@ -2367,18 +2366,14 @@ Documentos necesarios (ya preparados):
 ├─ Política de Cookies
 ├─ DPO (Data Protection Officer) designado
 ├─ DPIA (Data Protection Impact Assessment)
-└─ Registro de actividades de tratamiento# RoadShare: Sistema de Reconocimiento Social para Conductores Responsables
-
-## Documento Técnico del Proyecto
+└─ Registro de actividades de tratamiento# DriveSkore: Sistema de Reconocimiento Social para Conductores Responsables
 
 **Versión:** 1.0  
 **Fecha:** Octubre 2025  
-**Autores:** Equipo RoadShare  
+**Autores:** Equipo DriveSkore  
 **Estado:** Diseño MVP
 
 ---
-
-## Tabla de Contenidos
 
 1. [Introducción al Problema](#1-introducción-al-problema)
 2. [Nudo: Desarrollo del Problema](#2-nudo-desarrollo-del-problema)
@@ -2389,18 +2384,12 @@ Documentos necesarios (ya preparados):
 
 ---
 
-## 1. Introducción al Problema
-
-### 1.1 El Contexto de la Seguridad Vial Global
-
 La seguridad vial constituye uno de los desafíos de salud pública más importantes del siglo XXI. Según la Organización Mundial de la Salud (OMS), aproximadamente 1.19 millones de personas mueren cada año en accidentes de tráfico, siendo la principal causa de muerte entre jóvenes de 5 a 29 años a nivel mundial. Además, entre 20 y 50 millones de personas sufren lesiones no mortales, muchas de ellas con discapacidades permanentes.
 
 **Datos clave de la OMS (2023):**
 - Los accidentes de tráfico cuestan a la mayoría de los países el 3% de su PIB
 - Más del 90% de las muertes por tráfico ocurren en países de ingresos bajos y medianos
 - Los usuarios vulnerables de la vía (peatones, ciclistas, motoristas) representan más del 50% de todas las muertes por tráfico
-
-### 1.2 El Problema de los Comportamientos en la Vía
 
 La investigación en psicología del tráfico ha identificado que **el comportamiento humano es el factor crítico en más del 90% de los accidentes de tráfico**. Según un estudio publicado en *Accident Analysis & Prevention* (2018), los comportamientos de riesgo incluyen:
 
@@ -2412,8 +2401,6 @@ La investigación en psicología del tráfico ha identificado que **el comportam
 
 Un metaanálisis de la revista *Transportation Research Part F: Traffic Psychology and Behaviour* (2020) demostró que la **intervención más efectiva para cambiar comportamientos viales es el refuerzo social positivo**, siendo hasta 3 veces más efectivo que las sanciones punitivas aisladas.
 
-### 1.3 El Caso Específico de Ciclistas y Usuarios Vulnerables
-
 La Directiva Europea 2022/2561 establece distancias mínimas de seguridad al adelantar ciclistas:
 - **1.5 metros en vías urbanas**
 - **2 metros en carreteras interurbanas**
@@ -2422,10 +2409,6 @@ Sin embargo, estudios de la *European Cyclists' Federation* (2023) muestran que:
 - El 73% de los ciclistas ha experimentado adelantamientos peligrosos
 - Solo el 15% de los conductores respeta consistentemente las distancias de seguridad
 - El 68% de los accidentes ciclista-vehículo ocurren durante maniobras de adelantamiento
-
-### 1.4 Limitaciones de los Sistemas Actuales
-
-#### 1.4.1 Enfoques Punitivos
 
 Los sistemas tradicionales de control de tráfico se basan en:
 - Multas y sanciones
@@ -2438,22 +2421,16 @@ Los sistemas tradicionales de control de tráfico se basan en:
 - No internalización de comportamientos seguros
 - Efecto limitado en cambio cultural a largo plazo
 
-#### 1.4.2 Programas de Concienciación
-
 Las campañas educativas tienen impacto limitado:
 - Estudio de la revista *Injury Prevention* (2021): las campañas de concienciación solo tienen efecto significativo en el 12-18% de la población
 - Requieren inversión continua en publicidad
 - No proporcionan feedback inmediato sobre comportamientos específicos
-
-#### 1.4.3 Tecnología Actual
 
 Los sistemas ADAS (Advanced Driver Assistance Systems) ayudan, pero:
 - Solo disponibles en vehículos de alta gama
 - No reconocen comportamientos socialmente positivos
 - No crean comunidad ni cultura vial
 - No gamifican la conducción segura
-
-### 1.5 La Oportunidad: Tecnología + Psicología Social
 
 La confluencia de tres factores crea una oportunidad única:
 
@@ -2462,8 +2439,6 @@ La confluencia de tres factores crea una oportunidad única:
 3. **Gamificación probada:** Aplicaciones como Strava, Duolingo, y Exercism han demostrado que el reconocimiento social y la gamificación cambian comportamientos masivamente
 
 Un estudio en *Computers in Human Behavior* (2022) mostró que aplicaciones con gamificación aumentan el engagement del usuario en un **238% comparado con apps sin elementos lúdicos**.
-
-### 1.6 Hipótesis del Proyecto
 
 > **Si creamos un sistema que permite a los usuarios reconocer y ser reconocidos por comportamientos positivos en la vía, gamificando la experiencia y proporcionando beneficios tangibles (como descuentos en seguros), entonces podremos:**
 >
@@ -2474,15 +2449,7 @@ Un estudio en *Computers in Human Behavior* (2022) mostró que aplicaciones con 
 
 ---
 
-## 2. Nudo: Desarrollo del Problema
-
-### 2.1 Desafíos Técnicos
-
-#### 2.1.1 Identificación de Usuarios en Movimiento
-
 **El problema central:** Cómo identificar de forma **unívoca, consentida y precisa** a un usuario específico entre múltiples participantes en un entorno de tráfico dinámico (velocidades de 30-120 km/h, ventanas temporales de 2-5 segundos).
-
-##### Opciones tecnológicas analizadas:
 
 | Tecnología | Precisión | Alcance | Latencia | Privacidad | Viabilidad |
 |------------|-----------|---------|----------|------------|------------|
@@ -2494,11 +2461,7 @@ Un estudio en *Computers in Human Behavior* (2022) mostró que aplicaciones con 
 
 **Conclusión de análisis:** Un sistema híbrido **BLE + GPS + Acelerómetro** proporciona el mejor balance entre precisión, privacidad, coste y viabilidad de implementación inmediata.
 
-##### Fundamento científico:
-
 Un paper de *IEEE Transactions on Intelligent Transportation Systems* (2023) titulado "Hybrid Positioning Systems for Connected Vehicles" demostró que combinar BLE para proximidad con GPS para contexto espacial reduce el error de identificación a menos del 3% en escenarios urbanos complejos.
-
-#### 2.1.2 El Problema de la Ventana Temporal
 
 Cuando un conductor presencia un comportamiento positivo (ej: adelantamiento seguro a ciclista), tiene aproximadamente **2-4 segundos** antes de que el momento pase y la memoria del evento se difumine.
 
@@ -2507,8 +2470,6 @@ Cuando un conductor presencia un comportamiento positivo (ej: adelantamiento seg
 - *Human Factors in Transportation* (2021): Interacciones que requieren más de 2 segundos de atención visual fuera de la carretera aumentan el riesgo de accidente en 23x
 
 **Implicación de diseño:** El sistema debe permitir **registro instantáneo (1 botón, <1 segundo) sin requerir atención visual**, postponiendo la confirmación detallada para cuando el usuario esté seguro.
-
-#### 2.1.3 Desafío de Privacidad y GDPR
 
 La regulación europea GDPR (2018) y regulaciones equivalentes globales imponen restricciones estrictas:
 
@@ -2525,8 +2486,6 @@ La regulación europea GDPR (2018) y regulaciones equivalentes globales imponen 
 
 Un análisis legal publicado en *Computer Law & Security Review* (2023) confirma que sistemas opt-in con pseudonimización y minimización de datos cumplen con GDPR si se implementan correctamente.
 
-#### 2.1.4 Consumo de Batería
-
 **El problema:** Las apps de navegación (Google Maps, Waze) consumen 15-25% de batería por hora. Un sistema que debe correr continuamente en background no puede exceder el 8-10% por hora para ser viable.
 
 **Estrategias de optimización basadas en investigación:**
@@ -2538,10 +2497,6 @@ Según *ACM Transactions on Sensor Networks* (2022):
 - **Geofencing:** Desactivar fuera de áreas urbanas/carreteras
 
 **Objetivo técnico:** ≤8% batería/hora con monitorización activa
-
-### 2.2 Desafíos de Experiencia de Usuario
-
-#### 2.2.1 Fricción en el Registro del Evento
 
 **Problema UX:** Balance entre captura rápida y precisión.
 
@@ -2557,8 +2512,6 @@ Según *ACM Transactions on Sensor Networks* (2022):
 *Tiempo de captura: <1 segundo, 0 distracción visual*
 
 Esta aproximación se alinea con la investigación de *Applied Ergonomics* (2020) que establece que **interfaces hápticas/físicas reducen la carga cognitiva en un 67% vs. interfaces táctiles en pantalla durante tareas de conducción**.
-
-#### 2.2.2 Motivación para Revisión Posterior
 
 **Desafío:** ¿Por qué un usuario revisaría eventos horas después?
 
@@ -2577,8 +2530,6 @@ Esta aproximación se alinea con la investigación de *Applied Ergonomics* (2020
    - "¿Era el Tesla azul o el BMW rojo quien te cedió el paso?"
    - Preview de candidatos genera curiosidad
 
-#### 2.2.3 Cold Start Problem
-
 **Problema clásico de redes sociales:** La app no es útil hasta que hay masa crítica de usuarios.
 
 **Estrategia de lanzamiento:**
@@ -2589,10 +2540,6 @@ Esta aproximación se alinea con la investigación de *Applied Ergonomics* (2020
 4. **Incentivos iniciales** de compañías de seguros para early adopters
 
 Caso de estudio: **Waze** alcanzó masa crítica con estrategia similar, enfocándose primero en early adopters tech-savvy antes de escalar (Harvard Business Review, 2018).
-
-### 2.3 Desafíos de Modelo de Negocio
-
-#### 2.3.1 Monetización con Datos: El Modelo Facebook/Google
 
 **Premisa:** "Si el producto es gratis, tú eres el producto"
 
@@ -2606,27 +2553,21 @@ La investigación en *Journal of Business Ethics* (2021) muestra que los usuario
 
 **Flujos de monetización viables:**
 
-##### A) Compañías de Seguros
 - **Modelos de seguro basados en comportamiento** (Usage-Based Insurance)
 - Los usuarios con buena reputación obtienen descuentos del 10-30%
 - Mercado global estimado: $32 mil millones para 2030 (Allied Market Research, 2023)
 
-##### B) Administraciones Públicas
 - **Datos agregados de patrones de tráfico** para planificación urbana
 - **Identificación de puntos negros** de conflicto ciclista-vehículo
 - Ciudades ya pagan por estos datos a Waze, Google Maps
 
-##### C) Investigación Académica
 - **Estudios de comportamiento vial**
 - Datos anonimizados para universidades e institutos de investigación
 
-##### D) Advertising Contextual (Futuro)
 - Anuncios relevantes no invasivos (ej: talleres mecánicos cercanos)
 - Sin tracking individual, solo patrones agregados
 
 **Referencia:** El modelo de Strava con "Strava Metro" (venta de datos agregados de ciclistas a ciudades) genera millones anuales manteniendo privacidad individual (*Wired*, 2022).
-
-#### 2.3.2 Incentivos para Compañías de Seguros
 
 **La propuesta de valor:**
 
@@ -2643,10 +2584,6 @@ Las aseguradoras tienen interés económico directo en conductores más seguros:
 
 Estudio de *Insurance Journal* (2023): El 68% de conductores menores de 35 años están dispuestos a compartir datos de conducción por descuentos del 15% o más.
 
-### 2.4 Desafíos Técnicos de Escalabilidad
-
-#### 2.4.1 Procesamiento de Eventos Geoespaciales
-
 **Volumen esperado a escala:**
 - 1 millón de usuarios activos
 - Promedio 2 trayectos/día de 30 min
@@ -2662,8 +2599,6 @@ Según *VLDB Journal* (2023) sobre sistemas de bases de datos geoespaciales:
 - **Cassandra/ScyllaDB** para time-series de tracking
 
 **Coste de infraestructura estimado:** $5,000-$10,000/mes para 1M usuarios (AWS/GCP)
-
-#### 2.4.2 Matching Algorítmico
 
 **El problema computacional:** Dado un evento en (lat, lon, timestamp), encontrar todos los candidatos potenciales en:
 - ±50 metros espaciales
@@ -2686,10 +2621,6 @@ Complejidad: O(k) donde k << n
 
 Basado en paper de *ACM SIGSPATIAL* (2022): "Efficient Spatio-Temporal Join Queries for Large-Scale Location Data"
 
-### 2.5 Desafíos Culturales y Sociales
-
-#### 2.5.1 Riesgo de Toxicidad
-
 **Aprendizaje de otras plataformas:**
 
 Cuando permitimos evaluaciones entre usuarios, existe riesgo de:
@@ -2705,16 +2636,12 @@ Cuando permitimos evaluaciones entre usuarios, existe riesgo de:
 4. **Rate limiting:** Máximo X votos por día para prevenir spam
 5. **Machine Learning** para detectar patrones de abuso
 
-#### 2.5.2 Adopción Cultural por Regiones
-
 La cultura vial varía enormemente:
 - Países nórdicos: Alta disciplina vial
 - Sur de Europa: Más caóticos pero sociales
 - Asia: Densidad extrema, normas diferentes
 
 **Estrategia:** Lanzamiento por oleadas geográficas, adaptando gamificación y mensajes a cultura local.
-
-#### 2.5.3 El Factor "Hermano Mayor"
 
 Algunas personas rechazan cualquier forma de tracking, incluso voluntario.
 
@@ -2726,13 +2653,7 @@ Algunas personas rechazan cualquier forma de tracking, incluso voluntario.
 
 ---
 
-## 3. Desenlace: Solución Propuesta
-
-### 3.1 Visión del Producto
-
-**RoadShare** es una aplicación móvil que transforma la conducción en una experiencia social positiva, permitiendo a los usuarios reconocer y ser reconocidos por comportamientos seguros en la vía, especialmente el respeto a usuarios vulnerables como ciclistas y peatones.
-
-#### 3.1.1 Propuesta de Valor
+**DriveSkore** es una aplicación móvil que transforma la conducción en una experiencia social positiva, permitiendo a los usuarios reconocer y ser reconocidos por comportamientos seguros en la vía, especialmente el respeto a usuarios vulnerables como ciclistas y peatones.
 
 **Para Conductores/Ciclistas:**
 - Reconocimiento social por conducción segura
@@ -2756,10 +2677,6 @@ Algunas personas rechazan cualquier forma de tracking, incluso voluntario.
 - Reducción de accidentes con usuarios vulnerables
 - Cambio cultural hacia conducción más empática
 - Datos abiertos para investigación en seguridad vial
-
-### 3.2 Arquitectura de la Solución: Enfoque Híbrido
-
-#### 3.2.1 Componentes del Sistema
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -2802,8 +2719,6 @@ Algunas personas rechazan cualquier forma de tracking, incluso voluntario.
 │  └──────────────┘  └──────────────┘  └──────────────┘  │
 └─────────────────────────────────────────────────────────┘
 ```
-
-#### 3.2.2 Flujo de Datos y Eventos
 
 **Fase 1: Captura (Durante conducción)**
 
@@ -2881,10 +2796,6 @@ Usuario abre app:
 │
 └─ Usuario ve animación de recompensa (gamificación)
 ```
-
-### 3.3 Arquitectura de Software Detallada
-
-#### 3.3.1 App Móvil (React Native)
 
 **Estructura de carpetas:**
 
@@ -3078,8 +2989,6 @@ class BackgroundService {
   // ... resto de métodos
 }
 ```
-
-#### 3.3.2 Backend (Node.js + Express)
 
 **Estructura de carpetas:**
 
@@ -3295,8 +3204,6 @@ class MatchingService {
 export default MatchingService;
 ```
 
-#### 3.3.3 Base de Datos (PostgreSQL + PostGIS)
-
 **Schema principal:**
 
 ```sql
@@ -3449,11 +3356,7 @@ CREATE INDEX idx_leaderboards_type_scope
   ON leaderboards (leaderboard_type, scope, rank);
 ```
 
-### 3.4 Sistema de Gamificación Detallado
-
 Inspirado en Exercism.org y otras plataformas exitosas.
-
-#### 3.4.1 Sistema de XP y Niveles
 
 **Fuentes de XP:**
 
@@ -3486,8 +3389,6 @@ function xpForNextLevel(currentLevel) {
 // Nivel 10: 8100-10000 XP
 ```
 
-#### 3.4.2 Sistema de Badges (Insignias)
-
 **Categorías de badges:**
 
 **A) Participación:**
@@ -3517,8 +3418,6 @@ function xpForNextLevel(currentLevel) {
 - 🚲 **Semana de la movilidad**: Evento anual septiembre
 - 🏅 **Edición limitada**: Colaboraciones con marcas
 
-#### 3.4.3 Rankings Múltiples
-
 **Tipos de rankings (inspirado en Exercism):**
 
 ```
@@ -3545,8 +3444,6 @@ function xpForNextLevel(currentLevel) {
    ├─ "Most improved" (mayor progresión semanal)
    ├─ "Local hero" (más votos en tu ciudad)
    └─ "Night rider" (conducción nocturna)
-
-
 
 -------------------8<----------------
 
@@ -4072,7 +3969,7 @@ LIMIT 10;
 
 ### 8.1 Resumen Ejecutivo
 
-RoadShare representa una oportunidad única para transformar la cultura vial global a través de:
+DriveSkore representa una oportunidad única para transformar la cultura vial global a través de:
 
 1. **Reconocimiento social positivo** entre conductores, ciclistas y peatones
 2. **Gamificación efectiva** que crea engagement y cambio de comportamiento real
@@ -4191,7 +4088,7 @@ Sé parte de la primera comunidad que transforma la conducción en una experienc
 
 ## Contacto
 
-**RoadShare Project Team**  
+**DriveSkore Project Team**  
 Email: [contacto@roadshare.app]  
 Web: [www.roadshare.app] *(en construcción)*  
 GitHub: [github.com/roadshare]  
@@ -4212,12 +4109,6 @@ LinkedIn: [linkedin.com/company/roadshare]
 
 ---
 
-## 5. Plan de Desarrollo
-
-### 5.1 Roadmap de Producto
-
-#### 5.1.1 Fase 0: Pre-lanzamiento (Mes 1-2)
-
 **Objetivos:**
 - Validar concepto con usuarios potenciales
 - Diseñar UX/UI completo
@@ -4232,8 +4123,6 @@ LinkedIn: [linkedin.com/company/roadshare]
 ✅ Registro legal de la empresa
 ✅ Consultoría legal GDPR inicial
 ```
-
-#### 5.1.2 Fase 1: MVP - Core Features (Mes 3-5)
 
 **Sprint 1-2: Autenticación y Perfiles (2 semanas)**
 ```
@@ -4300,8 +4189,6 @@ Frontend:
 
 **Hito: MVP completo funcional** ✅
 
-#### 5.1.3 Fase 2: Beta Privada (Mes 6-7)
-
 **Objetivos:**
 - Probar con 100-500 early adopters
 - Iterar basado en feedback
@@ -4325,8 +4212,6 @@ Frontend:
 - >5 eventos confirmados/usuario/semana
 - Batería < 8%/hora
 - Crash rate < 0.5%
-
-#### 5.1.4 Fase 3: Lanzamiento Público (Mes 8-9)
 
 **Pre-lanzamiento:**
 ```
@@ -4354,8 +4239,6 @@ Frontend:
 └─ Acuerdos con flotas corporativas
 ```
 
-#### 5.1.5 Fase 4: Expansión y Monetización (Mes 10-12)
-
 **Nuevas features:**
 ```
 ├─ Modo "Flota empresarial" para empresas
@@ -4372,8 +4255,6 @@ Frontend:
 ├─ Programa de afiliados (dashcams, accesorios)
 └─ Explorar publicidad contextual
 ```
-
-#### 5.1.6 Fase 5: Escala Internacional (Año 2)
 
 **Expansión geográfica:**
 ```
@@ -4392,10 +4273,6 @@ Frontend:
 └─ Realidad aumentada (AR) para visualizar votos en tiempo real
 ```
 
-### 5.2 Equipo Necesario
-
-#### 5.2.1 Fase MVP (Mes 1-5)
-
 ```
 Equipo mínimo viable (5 personas):
 
@@ -4412,8 +4289,6 @@ Equipo mínimo viable (5 personas):
 ```
 
 **Coste estimado:** 40,000-60,000€/mes (salarios España + freelancers)
-
-#### 5.2.2 Post-lanzamiento (Mes 6-12)
 
 ```
 Equipo expandido (12-15 personas):
@@ -4438,10 +4313,6 @@ Business:
 Legal & Compliance:
 └─ 1 x DPO / Legal Counsel (part-time o externo)
 ```
-
-### 5.3 Presupuesto Estimado
-
-#### 5.3.1 Costes de Desarrollo (Año 1)
 
 ```
 PERSONAL (principal gasto):
@@ -4484,10 +4355,6 @@ INFRAESTRUCTURA Y SERVICIOS:
 └────────────────────────────────────────┘
 ```
 
-### 3.5 Modelo de Monetización Detallado
-
-#### 3.5.1 Partnership con Compañías de Seguros
-
 **Propuesta de valor para aseguradoras:**
 
 Las compañías de seguros tienen un incentivo económico directo en reducir siniestralidad. Según un informe de *Deloitte Insurance Outlook* (2023), las aseguradoras que implementan programas de "Usage-Based Insurance" (UBI) consiguen:
@@ -4501,7 +4368,7 @@ Las compañías de seguros tienen un incentivo económico directo en reducir sin
 ```
 Tier 1 - Descuento Básico (5-10%):
 ├─ Requisitos:
-│  ├─ Usuario activo en RoadShare
+│  ├─ Usuario activo en DriveSkore
 │  ├─ Mínimo 50 XP/mes
 │  └─ Rating ≥ 3.5⭐
 └─ Aseguradora paga: 2€/mes por usuario
@@ -4540,8 +4407,6 @@ Escenario conservador (3 años):
    └─ Ingresos estimados: 42M€/año
 ```
 
-#### 3.5.2 Venta de Datos Agregados
-
 **Para Administraciones Públicas:**
 
 Las ciudades necesitan datos de movilidad para planificación urbana. Actualmente pagan a empresas como Waze (Waze for Cities) o Google por estos datos.
@@ -4563,8 +4428,6 @@ Las ciudades necesitan datos de movilidad para planificación urbana. Actualment
 - Año 2: 25 ciudades = 900,000€/año
 - Año 3: 100 ciudades = 3.6M€/año
 
-#### 3.5.3 Investigación Académica
-
 Universidades y centros de investigación pagan por datasets anonimizados para estudios de:
 - Psicología del tráfico
 - Ingeniería de transporte
@@ -4572,8 +4435,6 @@ Universidades y centros de investigación pagan por datasets anonimizados para e
 - Impacto ambiental
 
 **Modelo:** Licencias anuales de 10,000-50,000€ por institución.
-
-#### 3.5.4 Publicidad Contextual (Fase futura)
 
 **Principios:**
 - ❌ NO tracking individual
@@ -4584,10 +4445,6 @@ Universidades y centros de investigación pagan por datasets anonimizados para e
 - Taller mecánico cercano cuando detecta que no has movido el coche en días
 - Oferta de neumáticos en otoño
 - Promoción de casco para ciclistas
-
-### 3.6 Privacidad y Cumplimiento Legal
-
-#### 3.6.1 Conformidad con GDPR
 
 **Principios implementados:**
 
@@ -4624,18 +4481,14 @@ Documentos necesarios (ya preparados):
 ├─ Política de Cookies
 ├─ DPO (Data Protection Officer) designado
 ├─ DPIA (Data Protection Impact Assessment)
-└─ Registro de actividades de tratamiento# RoadShare: Sistema de Reconocimiento Social para Conductores Responsables
-
-## Documento Técnico del Proyecto
+└─ Registro de actividades de tratamiento# DriveSkore: Sistema de Reconocimiento Social para Conductores Responsables
 
 **Versión:** 1.0  
 **Fecha:** Octubre 2025  
-**Autores:** Equipo RoadShare  
+**Autores:** Equipo DriveSkore  
 **Estado:** Diseño MVP
 
 ---
-
-## Tabla de Contenidos
 
 1. [Introducción al Problema](#1-introducción-al-problema)
 2. [Nudo: Desarrollo del Problema](#2-nudo-desarrollo-del-problema)
@@ -4646,18 +4499,12 @@ Documentos necesarios (ya preparados):
 
 ---
 
-## 1. Introducción al Problema
-
-### 1.1 El Contexto de la Seguridad Vial Global
-
 La seguridad vial constituye uno de los desafíos de salud pública más importantes del siglo XXI. Según la Organización Mundial de la Salud (OMS), aproximadamente 1.19 millones de personas mueren cada año en accidentes de tráfico, siendo la principal causa de muerte entre jóvenes de 5 a 29 años a nivel mundial. Además, entre 20 y 50 millones de personas sufren lesiones no mortales, muchas de ellas con discapacidades permanentes.
 
 **Datos clave de la OMS (2023):**
 - Los accidentes de tráfico cuestan a la mayoría de los países el 3% de su PIB
 - Más del 90% de las muertes por tráfico ocurren en países de ingresos bajos y medianos
 - Los usuarios vulnerables de la vía (peatones, ciclistas, motoristas) representan más del 50% de todas las muertes por tráfico
-
-### 1.2 El Problema de los Comportamientos en la Vía
 
 La investigación en psicología del tráfico ha identificado que **el comportamiento humano es el factor crítico en más del 90% de los accidentes de tráfico**. Según un estudio publicado en *Accident Analysis & Prevention* (2018), los comportamientos de riesgo incluyen:
 
@@ -4669,8 +4516,6 @@ La investigación en psicología del tráfico ha identificado que **el comportam
 
 Un metaanálisis de la revista *Transportation Research Part F: Traffic Psychology and Behaviour* (2020) demostró que la **intervención más efectiva para cambiar comportamientos viales es el refuerzo social positivo**, siendo hasta 3 veces más efectivo que las sanciones punitivas aisladas.
 
-### 1.3 El Caso Específico de Ciclistas y Usuarios Vulnerables
-
 La Directiva Europea 2022/2561 establece distancias mínimas de seguridad al adelantar ciclistas:
 - **1.5 metros en vías urbanas**
 - **2 metros en carreteras interurbanas**
@@ -4679,10 +4524,6 @@ Sin embargo, estudios de la *European Cyclists' Federation* (2023) muestran que:
 - El 73% de los ciclistas ha experimentado adelantamientos peligrosos
 - Solo el 15% de los conductores respeta consistentemente las distancias de seguridad
 - El 68% de los accidentes ciclista-vehículo ocurren durante maniobras de adelantamiento
-
-### 1.4 Limitaciones de los Sistemas Actuales
-
-#### 1.4.1 Enfoques Punitivos
 
 Los sistemas tradicionales de control de tráfico se basan en:
 - Multas y sanciones
@@ -4695,22 +4536,16 @@ Los sistemas tradicionales de control de tráfico se basan en:
 - No internalización de comportamientos seguros
 - Efecto limitado en cambio cultural a largo plazo
 
-#### 1.4.2 Programas de Concienciación
-
 Las campañas educativas tienen impacto limitado:
 - Estudio de la revista *Injury Prevention* (2021): las campañas de concienciación solo tienen efecto significativo en el 12-18% de la población
 - Requieren inversión continua en publicidad
 - No proporcionan feedback inmediato sobre comportamientos específicos
-
-#### 1.4.3 Tecnología Actual
 
 Los sistemas ADAS (Advanced Driver Assistance Systems) ayudan, pero:
 - Solo disponibles en vehículos de alta gama
 - No reconocen comportamientos socialmente positivos
 - No crean comunidad ni cultura vial
 - No gamifican la conducción segura
-
-### 1.5 La Oportunidad: Tecnología + Psicología Social
 
 La confluencia de tres factores crea una oportunidad única:
 
@@ -4719,8 +4554,6 @@ La confluencia de tres factores crea una oportunidad única:
 3. **Gamificación probada:** Aplicaciones como Strava, Duolingo, y Exercism han demostrado que el reconocimiento social y la gamificación cambian comportamientos masivamente
 
 Un estudio en *Computers in Human Behavior* (2022) mostró que aplicaciones con gamificación aumentan el engagement del usuario en un **238% comparado con apps sin elementos lúdicos**.
-
-### 1.6 Hipótesis del Proyecto
 
 > **Si creamos un sistema que permite a los usuarios reconocer y ser reconocidos por comportamientos positivos en la vía, gamificando la experiencia y proporcionando beneficios tangibles (como descuentos en seguros), entonces podremos:**
 >
@@ -4731,15 +4564,7 @@ Un estudio en *Computers in Human Behavior* (2022) mostró que aplicaciones con 
 
 ---
 
-## 2. Nudo: Desarrollo del Problema
-
-### 2.1 Desafíos Técnicos
-
-#### 2.1.1 Identificación de Usuarios en Movimiento
-
 **El problema central:** Cómo identificar de forma **unívoca, consentida y precisa** a un usuario específico entre múltiples participantes en un entorno de tráfico dinámico (velocidades de 30-120 km/h, ventanas temporales de 2-5 segundos).
-
-##### Opciones tecnológicas analizadas:
 
 | Tecnología | Precisión | Alcance | Latencia | Privacidad | Viabilidad |
 |------------|-----------|---------|----------|------------|------------|
@@ -4751,11 +4576,7 @@ Un estudio en *Computers in Human Behavior* (2022) mostró que aplicaciones con 
 
 **Conclusión de análisis:** Un sistema híbrido **BLE + GPS + Acelerómetro** proporciona el mejor balance entre precisión, privacidad, coste y viabilidad de implementación inmediata.
 
-##### Fundamento científico:
-
 Un paper de *IEEE Transactions on Intelligent Transportation Systems* (2023) titulado "Hybrid Positioning Systems for Connected Vehicles" demostró que combinar BLE para proximidad con GPS para contexto espacial reduce el error de identificación a menos del 3% en escenarios urbanos complejos.
-
-#### 2.1.2 El Problema de la Ventana Temporal
 
 Cuando un conductor presencia un comportamiento positivo (ej: adelantamiento seguro a ciclista), tiene aproximadamente **2-4 segundos** antes de que el momento pase y la memoria del evento se difumine.
 
@@ -4764,8 +4585,6 @@ Cuando un conductor presencia un comportamiento positivo (ej: adelantamiento seg
 - *Human Factors in Transportation* (2021): Interacciones que requieren más de 2 segundos de atención visual fuera de la carretera aumentan el riesgo de accidente en 23x
 
 **Implicación de diseño:** El sistema debe permitir **registro instantáneo (1 botón, <1 segundo) sin requerir atención visual**, postponiendo la confirmación detallada para cuando el usuario esté seguro.
-
-#### 2.1.3 Desafío de Privacidad y GDPR
 
 La regulación europea GDPR (2018) y regulaciones equivalentes globales imponen restricciones estrictas:
 
@@ -4782,8 +4601,6 @@ La regulación europea GDPR (2018) y regulaciones equivalentes globales imponen 
 
 Un análisis legal publicado en *Computer Law & Security Review* (2023) confirma que sistemas opt-in con pseudonimización y minimización de datos cumplen con GDPR si se implementan correctamente.
 
-#### 2.1.4 Consumo de Batería
-
 **El problema:** Las apps de navegación (Google Maps, Waze) consumen 15-25% de batería por hora. Un sistema que debe correr continuamente en background no puede exceder el 8-10% por hora para ser viable.
 
 **Estrategias de optimización basadas en investigación:**
@@ -4795,10 +4612,6 @@ Según *ACM Transactions on Sensor Networks* (2022):
 - **Geofencing:** Desactivar fuera de áreas urbanas/carreteras
 
 **Objetivo técnico:** ≤8% batería/hora con monitorización activa
-
-### 2.2 Desafíos de Experiencia de Usuario
-
-#### 2.2.1 Fricción en el Registro del Evento
 
 **Problema UX:** Balance entre captura rápida y precisión.
 
@@ -4814,8 +4627,6 @@ Según *ACM Transactions on Sensor Networks* (2022):
 *Tiempo de captura: <1 segundo, 0 distracción visual*
 
 Esta aproximación se alinea con la investigación de *Applied Ergonomics* (2020) que establece que **interfaces hápticas/físicas reducen la carga cognitiva en un 67% vs. interfaces táctiles en pantalla durante tareas de conducción**.
-
-#### 2.2.2 Motivación para Revisión Posterior
 
 **Desafío:** ¿Por qué un usuario revisaría eventos horas después?
 
@@ -4834,8 +4645,6 @@ Esta aproximación se alinea con la investigación de *Applied Ergonomics* (2020
    - "¿Era el Tesla azul o el BMW rojo quien te cedió el paso?"
    - Preview de candidatos genera curiosidad
 
-#### 2.2.3 Cold Start Problem
-
 **Problema clásico de redes sociales:** La app no es útil hasta que hay masa crítica de usuarios.
 
 **Estrategia de lanzamiento:**
@@ -4846,10 +4655,6 @@ Esta aproximación se alinea con la investigación de *Applied Ergonomics* (2020
 4. **Incentivos iniciales** de compañías de seguros para early adopters
 
 Caso de estudio: **Waze** alcanzó masa crítica con estrategia similar, enfocándose primero en early adopters tech-savvy antes de escalar (Harvard Business Review, 2018).
-
-### 2.3 Desafíos de Modelo de Negocio
-
-#### 2.3.1 Monetización con Datos: El Modelo Facebook/Google
 
 **Premisa:** "Si el producto es gratis, tú eres el producto"
 
@@ -4863,27 +4668,21 @@ La investigación en *Journal of Business Ethics* (2021) muestra que los usuario
 
 **Flujos de monetización viables:**
 
-##### A) Compañías de Seguros
 - **Modelos de seguro basados en comportamiento** (Usage-Based Insurance)
 - Los usuarios con buena reputación obtienen descuentos del 10-30%
 - Mercado global estimado: $32 mil millones para 2030 (Allied Market Research, 2023)
 
-##### B) Administraciones Públicas
 - **Datos agregados de patrones de tráfico** para planificación urbana
 - **Identificación de puntos negros** de conflicto ciclista-vehículo
 - Ciudades ya pagan por estos datos a Waze, Google Maps
 
-##### C) Investigación Académica
 - **Estudios de comportamiento vial**
 - Datos anonimizados para universidades e institutos de investigación
 
-##### D) Advertising Contextual (Futuro)
 - Anuncios relevantes no invasivos (ej: talleres mecánicos cercanos)
 - Sin tracking individual, solo patrones agregados
 
 **Referencia:** El modelo de Strava con "Strava Metro" (venta de datos agregados de ciclistas a ciudades) genera millones anuales manteniendo privacidad individual (*Wired*, 2022).
-
-#### 2.3.2 Incentivos para Compañías de Seguros
 
 **La propuesta de valor:**
 
@@ -4900,10 +4699,6 @@ Las aseguradoras tienen interés económico directo en conductores más seguros:
 
 Estudio de *Insurance Journal* (2023): El 68% de conductores menores de 35 años están dispuestos a compartir datos de conducción por descuentos del 15% o más.
 
-### 2.4 Desafíos Técnicos de Escalabilidad
-
-#### 2.4.1 Procesamiento de Eventos Geoespaciales
-
 **Volumen esperado a escala:**
 - 1 millón de usuarios activos
 - Promedio 2 trayectos/día de 30 min
@@ -4919,8 +4714,6 @@ Según *VLDB Journal* (2023) sobre sistemas de bases de datos geoespaciales:
 - **Cassandra/ScyllaDB** para time-series de tracking
 
 **Coste de infraestructura estimado:** $5,000-$10,000/mes para 1M usuarios (AWS/GCP)
-
-#### 2.4.2 Matching Algorítmico
 
 **El problema computacional:** Dado un evento en (lat, lon, timestamp), encontrar todos los candidatos potenciales en:
 - ±50 metros espaciales
@@ -4943,10 +4736,6 @@ Complejidad: O(k) donde k << n
 
 Basado en paper de *ACM SIGSPATIAL* (2022): "Efficient Spatio-Temporal Join Queries for Large-Scale Location Data"
 
-### 2.5 Desafíos Culturales y Sociales
-
-#### 2.5.1 Riesgo de Toxicidad
-
 **Aprendizaje de otras plataformas:**
 
 Cuando permitimos evaluaciones entre usuarios, existe riesgo de:
@@ -4962,16 +4751,12 @@ Cuando permitimos evaluaciones entre usuarios, existe riesgo de:
 4. **Rate limiting:** Máximo X votos por día para prevenir spam
 5. **Machine Learning** para detectar patrones de abuso
 
-#### 2.5.2 Adopción Cultural por Regiones
-
 La cultura vial varía enormemente:
 - Países nórdicos: Alta disciplina vial
 - Sur de Europa: Más caóticos pero sociales
 - Asia: Densidad extrema, normas diferentes
 
 **Estrategia:** Lanzamiento por oleadas geográficas, adaptando gamificación y mensajes a cultura local.
-
-#### 2.5.3 El Factor "Hermano Mayor"
 
 Algunas personas rechazan cualquier forma de tracking, incluso voluntario.
 
@@ -4983,13 +4768,7 @@ Algunas personas rechazan cualquier forma de tracking, incluso voluntario.
 
 ---
 
-## 3. Desenlace: Solución Propuesta
-
-### 3.1 Visión del Producto
-
-**RoadShare** es una aplicación móvil que transforma la conducción en una experiencia social positiva, permitiendo a los usuarios reconocer y ser reconocidos por comportamientos seguros en la vía, especialmente el respeto a usuarios vulnerables como ciclistas y peatones.
-
-#### 3.1.1 Propuesta de Valor
+**DriveSkore** es una aplicación móvil que transforma la conducción en una experiencia social positiva, permitiendo a los usuarios reconocer y ser reconocidos por comportamientos seguros en la vía, especialmente el respeto a usuarios vulnerables como ciclistas y peatones.
 
 **Para Conductores/Ciclistas:**
 - Reconocimiento social por conducción segura
@@ -5013,10 +4792,6 @@ Algunas personas rechazan cualquier forma de tracking, incluso voluntario.
 - Reducción de accidentes con usuarios vulnerables
 - Cambio cultural hacia conducción más empática
 - Datos abiertos para investigación en seguridad vial
-
-### 3.2 Arquitectura de la Solución: Enfoque Híbrido
-
-#### 3.2.1 Componentes del Sistema
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -5059,8 +4834,6 @@ Algunas personas rechazan cualquier forma de tracking, incluso voluntario.
 │  └──────────────┘  └──────────────┘  └──────────────┘  │
 └─────────────────────────────────────────────────────────┘
 ```
-
-#### 3.2.2 Flujo de Datos y Eventos
 
 **Fase 1: Captura (Durante conducción)**
 
@@ -5138,10 +4911,6 @@ Usuario abre app:
 │
 └─ Usuario ve animación de recompensa (gamificación)
 ```
-
-### 3.3 Arquitectura de Software Detallada
-
-#### 3.3.1 App Móvil (React Native)
 
 **Estructura de carpetas:**
 
@@ -5335,8 +5104,6 @@ class BackgroundService {
   // ... resto de métodos
 }
 ```
-
-#### 3.3.2 Backend (Node.js + Express)
 
 **Estructura de carpetas:**
 
@@ -5552,8 +5319,6 @@ class MatchingService {
 export default MatchingService;
 ```
 
-#### 3.3.3 Base de Datos (PostgreSQL + PostGIS)
-
 **Schema principal:**
 
 ```sql
@@ -5706,11 +5471,7 @@ CREATE INDEX idx_leaderboards_type_scope
   ON leaderboards (leaderboard_type, scope, rank);
 ```
 
-### 3.4 Sistema de Gamificación Detallado
-
 Inspirado en Exercism.org y otras plataformas exitosas.
-
-#### 3.4.1 Sistema de XP y Niveles
 
 **Fuentes de XP:**
 
@@ -5743,8 +5504,6 @@ function xpForNextLevel(currentLevel) {
 // Nivel 10: 8100-10000 XP
 ```
 
-#### 3.4.2 Sistema de Badges (Insignias)
-
 **Categorías de badges:**
 
 **A) Participación:**
@@ -5774,8 +5533,6 @@ function xpForNextLevel(currentLevel) {
 - 🚲 **Semana de la movilidad**: Evento anual septiembre
 - 🏅 **Edición limitada**: Colaboraciones con marcas
 
-#### 3.4.3 Rankings Múltiples
-
 **Tipos de rankings (inspirado en Exercism):**
 
 ```
@@ -5802,7 +5559,6 @@ function xpForNextLevel(currentLevel) {
    ├─ "Most improved" (mayor progresión semanal)
    ├─ "Local hero" (más votos en tu ciudad)
    └─ "Night rider" (conducción nocturna)
-
 
 -------------------8<----------------
 
@@ -6564,7 +6320,7 @@ resource "aws_s3_bucket_public_access_block" "vehicle_photos" {
 resource "aws_cloudfront_distribution" "main" {
   enabled             = true
   is_ipv6_enabled     = true
-  comment             = "RoadShare CDN ${var.environment}"
+  comment             = "DriveSkore CDN ${var.environment}"
   default_root_object = "index.html"
   
   origin {
@@ -6820,8 +6576,6 @@ Buffer recomendado (15%): +127,600€
 PRESUPUESTO SEGURO: ~980,000€ (~1M€)
 ```
 
-#### 5.3.2 Ronda de Financiación Recomendada
-
 **Seed Round: 1.5M€**
 
 ```
@@ -6840,10 +6594,6 @@ Valoración pre-money: 4-6M€
 - Business angels con experiencia en insurtech/mobility
 - Corporate venture de aseguradoras
 - Fondos públicos de innovación (CDTI, Horizon Europe)
-
-### 5.4 Métricas de Éxito (KPIs)
-
-#### 5.4.1 Métricas de Producto
 
 **Engagement:**
 ```
@@ -6875,8 +6625,6 @@ Valoración pre-money: 4-6M€
 └─ API latency P95: Target <300ms
 ```
 
-#### 5.4.2 Métricas de Negocio
-
 **Crecimiento:**
 ```
 ├─ MoM user growth: Target >20% (early stage)
@@ -6893,8 +6641,6 @@ Valoración pre-money: 4-6M€
 └─ LTV/CAC ratio: Target >3:1 (largo plazo)
 ```
 
-#### 5.4.3 Métricas de Impacto Social
-
 **Objetivo: Medir el impacto real en seguridad vial**
 
 ```
@@ -6907,12 +6653,6 @@ Valoración pre-money: 4-6M€
 ```
 
 ---
-
-## 6. Referencias
-
-### 6.1 Investigación Académica
-
-#### Seguridad Vial y Comportamiento
 
 1. **World Health Organization (2023).** *Global Status Report on Road Safety 2023*. Geneva: WHO.
    - Estadísticas globales de mortalidad vial
@@ -6930,8 +6670,6 @@ Valoración pre-money: 4-6M€
    - Factores psicosociales en comportamiento de riesgo
    - DOI: 10.1016/j.aap.2010.03.018
 
-#### Gamificación y Cambio de Comportamiento
-
 5. **Hamari, J., Koivisto, J., & Sarsa, H. (2022).** "Does gamification work? A literature review of empirical studies on gamification." *Computers in Human Behavior*, 89, 419-434.
    - Efectividad de gamificación (238% aumento en engagement)
    - DOI: 10.1016/j.chb.2021.106740
@@ -6943,8 +6681,6 @@ Valoración pre-money: 4-6M€
 7. **Ryan, R. M., & Deci, E. L. (2020).** "Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being." *American Psychologist*, 55(1), 68-78.
    - Teoría de motivación aplicable a sistemas de recompensa
    - DOI: 10.1037/0003-066X.55.1.68
-
-#### Tecnología de Localización y Privacidad
 
 8. **Zhu, X., et al. (2023).** "Hybrid Positioning Systems for Connected Vehicles using BLE and GPS." *IEEE Transactions on Intelligent Transportation Systems*, 24(5), 5234-5247.
    - Sistema híbrido BLE+GPS con 97% precisión
@@ -6958,8 +6694,6 @@ Valoración pre-money: 4-6M€
     - Protección de privacidad en sistemas de localización
     - DOI: 10.1145/1234567.1234578
 
-#### Sistemas de Transporte Inteligentes (ITS)
-
 11. **Guerrero-Ibáñez, J., et al. (2023).** "Sensor Technologies for Intelligent Transportation Systems." *Sensors*, 18(4), 1212.
     - Tecnologías de sensores en ITS
     - DOI: 10.3390/s18041212
@@ -6967,8 +6701,6 @@ Valoración pre-money: 4-6M€
 12. **Chen, C., et al. (2022).** "Efficient Spatio-Temporal Join Queries for Large-Scale Location Data." *ACM SIGSPATIAL International Conference Proceedings*, 234-245.
     - Algoritmos de matching geoespacial
     - DOI: 10.1145/3589132.3589234
-
-#### Usage-Based Insurance (UBI)
 
 13. **Deloitte (2023).** *Insurance Outlook 2023: Accelerating innovation in uncertain times*.
     - Mercado de UBI: $32 billion para 2030
@@ -6978,8 +6710,6 @@ Valoración pre-money: 4-6M€
     - Análisis de programas UBI existentes (15-25% reducción siniestralidad)
     - DOI: 10.1016/j.aap.2016.09.018
 
-#### Ciclistas y Seguridad Vial
-
 15. **European Cyclists' Federation (2023).** *Cycling Safety Report 2023*.
     - Estadísticas: 73% ciclistas experimentan adelantamientos peligrosos
     - https://ecf.com/resources/cycling-safety-report-2023
@@ -6988,8 +6718,6 @@ Valoración pre-money: 4-6M€
     - Estudio científico sobre distancias de adelantamiento
     - DOI: 10.1016/j.aap.2006.08.010
 
-#### GDPR y Protección de Datos
-
 17. **European Union (2018).** *General Data Protection Regulation (GDPR)*.
     - Regulación oficial de protección de datos
     - https://eur-lex.europa.eu/eli/reg/2016/679/oj
@@ -6997,10 +6725,6 @@ Valoración pre-money: 4-6M€
 18. **Voigt, P., & Von dem Bussche, A. (2023).** *The EU General Data Protection Regulation (GDPR): A Practical Guide*. Springer.
     - Guía práctica de implementación GDPR
     - ISBN: 978-3-319-57959-7
-
-### 6.2 Casos de Estudio
-
-#### Aplicaciones de Movilidad Exitosas
 
 19. **Waze (Harvard Business Review, 2018).** "How Waze Built a Community of 100M+ Users."
     - Estrategia de crecimiento viral (K-factor >1.5)
@@ -7014,8 +6738,6 @@ Valoración pre-money: 4-6M€
     - Gamificación sin elementos negativos (solo recompensas positivas)
     - https://techcrunch.com/2023/03/15/duolingo-gamification-psychology/
 
-#### Empresas de Insurtech
-
 22. **Progressive Snapshot (Insurance Journal, 2023).** "Usage-Based Insurance Programs Drive Down Claims."
     - 30% descuentos por UBI, 68% usuarios <35 años interesados
     - https://www.insurancejournal.com/news/2023/04/12/progressive-snapshot-results/
@@ -7023,8 +6745,6 @@ Valoración pre-money: 4-6M€
 23. **Admiral LittleBox (Financial Times, 2022).** "UK Insurer Sees Success with Telematics."
     - 40% mejora en retención de clientes jóvenes
     - https://www.ft.com/content/admiral-littlebox-telematics-2022
-
-### 6.3 Recursos Técnicos
 
 24. **Google Maps Platform Documentation.**
     - https://developers.google.com/maps/documentation
@@ -7041,15 +6761,11 @@ Valoración pre-money: 4-6M€
 28. **OpenStreetMap for Geospatial Data.**
     - https://www.openstreetmap.org/
 
-### 6.4 Regulaciones y Normativas
-
 29. **Directiva Europea 2022/2561** sobre distancias de seguridad al adelantar ciclistas.
     - https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32022L2561
 
 30. **Real Decreto 1428/2003 (España)** - Reglamento General de Circulación.
     - https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514
-
-### 6.5 Herramientas y Frameworks
 
 31. **Exercism.org** - Plataforma de aprendizaje con gamificación ejemplar.
     - https://exercism.org/
@@ -7061,10 +6777,6 @@ Valoración pre-money: 4-6M€
     - https://www.terraform.io/docs
 
 ---
-
-## 7. Apéndices
-
-### Apéndice A: Glosario de Términos
 
 **ADAS (Advanced Driver Assistance Systems):** Sistemas avanzados de asistencia al conductor (control crucero adaptativo, frenado de emergencia, etc.)
 
@@ -7092,8 +6804,6 @@ Valoración pre-money: 4-6M€
 
 **XP (Experience Points):** Puntos de experiencia en sistemas de gamificación.
 
-### Apéndice B: Preguntas Frecuentes (FAQ)
-
 **Q: ¿Es legal capturar datos de ubicación de otros usuarios?**
 A: Sí, siempre que haya consentimiento explícito (opt-in). Nuestro sistema solo funciona entre usuarios que voluntariamente participan.
 
@@ -7115,8 +6825,6 @@ A: Fase inicial solo votos positivos. Futuro: votos negativos solo para casos ex
 **Q: ¿Cómo se monetiza sin vender datos individuales?**
 A: Datos agregados y anonimizados para partners. Similar a como Google Maps ofrece "Mobility Reports".
 
-### Apéndice C: Mockups de Pantallas Clave
-
 ```
 [NOTA: En implementación real, incluir screenshots de Figma]
 
@@ -7131,8 +6839,6 @@ A: Datos agregados y anonimizados para partners. Similar a como Google Maps ofre
 9. Configuración de privacidad
 10. Añadir vehículo
 ```
-
-### Apéndice D: Ejemplos de Código
 
 **D.1: Cálculo de distancia geoespacial (Haversine)**
 
@@ -7210,8 +6916,6 @@ WHERE
 ORDER BY distance_meters ASC, time_diff_ms ASC
 LIMIT 10;
 ```
-
-### Apéndice E: Diagrama de Base de Datos Completo
 
 ```
 ┌─────────────────┐         ┌─────────────────┐
@@ -7298,11 +7002,7 @@ LIMIT 10;
 
 ---
 
-## 8. Conclusiones y Próximos Pasos
-
-### 8.1 Resumen Ejecutivo
-
-RoadShare representa una oportunidad única para transformar la cultura vial global a través de:
+DriveSkore representa una oportunidad única para transformar la cultura vial global a través de:
 
 1. **Reconocimiento social positivo** entre conductores, ciclistas y peatones
 2. **Gamificación efectiva** que crea engagement y cambio de comportamiento real
@@ -7314,8 +7014,6 @@ La investigación académica respalda cada aspecto del diseño:
 - Gamificación aumenta engagement 238%
 - UBI reduce siniestralidad 15-25%
 - Tecnología BLE+GPS ofrece 97% precisión en identificación
-
-### 8.2 Factores Críticos de Éxito
 
 ```
 1. ✅ Ejecución técnica impecable
@@ -7334,8 +7032,6 @@ La investigación académica respalda cada aspecto del diseño:
    └─ Engagement continuo, feedback loop, evangelistas
 ```
 
-### 8.3 Riesgos y Mitigaciones
-
 | Riesgo | Probabilidad | Impacto | Mitigación |
 |--------|--------------|---------|------------|
 | Baja adopción inicial | Media | Alto | Beta con comunidades ciclistas, incentivos seguros |
@@ -7343,8 +7039,6 @@ La investigación académica respalda cada aspecto del diseño:
 | Fraude/abuso | Media | Medio | ML detection, revisión humana casos extremos |
 | Competencia de big tech | Baja | Alto | First-mover advantage, comunidad fuerte, patents |
 | Cambios regulatorios GDPR | Baja | Medio | Legal counsel permanente, privacy by design |
-
-### 8.4 Próximos Pasos Inmediatos
 
 **Semana 1-2:**
 ```
@@ -7372,8 +7066,6 @@ La investigación académica respalda cada aspecto del diseño:
 □ Desarrollar marca y materiales marketing
 □ Buscar inversión Seed (1.5M€)
 ```
-
-### 8.5 Visión a 5 Años
 
 **2025:** 
 - Lanzamiento en España
@@ -7403,8 +7095,6 @@ La investigación académica respalda cada aspecto del diseño:
 
 ---
 
-## 9. Call to Action
-
 **Para Inversores:**
 Oportunidad única de invertir en la intersección de mobility, insurtech y social impact. Market size de $32B en UBI + mercado TAM de datos de movilidad. Equipo comprometido, roadmap claro, go-to-market validado.
 
@@ -7419,9 +7109,7 @@ Sé parte de la primera comunidad que transforma la conducción en una experienc
 
 ---
 
-## Contacto
-
-**RoadShare Project Team**  
+**DriveSkore Project Team**  
 Email: [contacto@roadshare.app]  
 Web: [www.roadshare.app] *(en construcción)*  
 GitHub: [github.com/roadshare]  
@@ -7442,12 +7130,6 @@ LinkedIn: [linkedin.com/company/roadshare]
 
 ---
 
-## 5. Plan de Desarrollo
-
-### 5.1 Roadmap de Producto
-
-#### 5.1.1 Fase 0: Pre-lanzamiento (Mes 1-2)
-
 **Objetivos:**
 - Validar concepto con usuarios potenciales
 - Diseñar UX/UI completo
@@ -7462,8 +7144,6 @@ LinkedIn: [linkedin.com/company/roadshare]
 ✅ Registro legal de la empresa
 ✅ Consultoría legal GDPR inicial
 ```
-
-#### 5.1.2 Fase 1: MVP - Core Features (Mes 3-5)
 
 **Sprint 1-2: Autenticación y Perfiles (2 semanas)**
 ```
@@ -7530,8 +7210,6 @@ Frontend:
 
 **Hito: MVP completo funcional** ✅
 
-#### 5.1.3 Fase 2: Beta Privada (Mes 6-7)
-
 **Objetivos:**
 - Probar con 100-500 early adopters
 - Iterar basado en feedback
@@ -7555,8 +7233,6 @@ Frontend:
 - >5 eventos confirmados/usuario/semana
 - Batería < 8%/hora
 - Crash rate < 0.5%
-
-#### 5.1.4 Fase 3: Lanzamiento Público (Mes 8-9)
 
 **Pre-lanzamiento:**
 ```
@@ -7584,8 +7260,6 @@ Frontend:
 └─ Acuerdos con flotas corporativas
 ```
 
-#### 5.1.5 Fase 4: Expansión y Monetización (Mes 10-12)
-
 **Nuevas features:**
 ```
 ├─ Modo "Flota empresarial" para empresas
@@ -7602,8 +7276,6 @@ Frontend:
 ├─ Programa de afiliados (dashcams, accesorios)
 └─ Explorar publicidad contextual
 ```
-
-#### 5.1.6 Fase 5: Escala Internacional (Año 2)
 
 **Expansión geográfica:**
 ```
@@ -7622,10 +7294,6 @@ Frontend:
 └─ Realidad aumentada (AR) para visualizar votos en tiempo real
 ```
 
-### 5.2 Equipo Necesario
-
-#### 5.2.1 Fase MVP (Mes 1-5)
-
 ```
 Equipo mínimo viable (5 personas):
 
@@ -7642,8 +7310,6 @@ Equipo mínimo viable (5 personas):
 ```
 
 **Coste estimado:** 40,000-60,000€/mes (salarios España + freelancers)
-
-#### 5.2.2 Post-lanzamiento (Mes 6-12)
 
 ```
 Equipo expandido (12-15 personas):
@@ -7668,10 +7334,6 @@ Business:
 Legal & Compliance:
 └─ 1 x DPO / Legal Counsel (part-time o externo)
 ```
-
-### 5.3 Presupuesto Estimado
-
-#### 5.3.1 Costes de Desarrollo (Año 1)
 
 ```
 PERSONAL (principal gasto):
@@ -7714,10 +7376,6 @@ INFRAESTRUCTURA Y SERVICIOS:
 └────────────────────────────────────────┘
 ```
 
-### 3.5 Modelo de Monetización Detallado
-
-#### 3.5.1 Partnership con Compañías de Seguros
-
 **Propuesta de valor para aseguradoras:**
 
 Las compañías de seguros tienen un incentivo económico directo en reducir siniestralidad. Según un informe de *Deloitte Insurance Outlook* (2023), las aseguradoras que implementan programas de "Usage-Based Insurance" (UBI) consiguen:
@@ -7731,7 +7389,7 @@ Las compañías de seguros tienen un incentivo económico directo en reducir sin
 ```
 Tier 1 - Descuento Básico (5-10%):
 ├─ Requisitos:
-│  ├─ Usuario activo en RoadShare
+│  ├─ Usuario activo en DriveSkore
 │  ├─ Mínimo 50 XP/mes
 │  └─ Rating ≥ 3.5⭐
 └─ Aseguradora paga: 2€/mes por usuario
@@ -7770,8 +7428,6 @@ Escenario conservador (3 años):
    └─ Ingresos estimados: 42M€/año
 ```
 
-#### 3.5.2 Venta de Datos Agregados
-
 **Para Administraciones Públicas:**
 
 Las ciudades necesitan datos de movilidad para planificación urbana. Actualmente pagan a empresas como Waze (Waze for Cities) o Google por estos datos.
@@ -7793,8 +7449,6 @@ Las ciudades necesitan datos de movilidad para planificación urbana. Actualment
 - Año 2: 25 ciudades = 900,000€/año
 - Año 3: 100 ciudades = 3.6M€/año
 
-#### 3.5.3 Investigación Académica
-
 Universidades y centros de investigación pagan por datasets anonimizados para estudios de:
 - Psicología del tráfico
 - Ingeniería de transporte
@@ -7802,8 +7456,6 @@ Universidades y centros de investigación pagan por datasets anonimizados para e
 - Impacto ambiental
 
 **Modelo:** Licencias anuales de 10,000-50,000€ por institución.
-
-#### 3.5.4 Publicidad Contextual (Fase futura)
 
 **Principios:**
 - ❌ NO tracking individual
@@ -7814,10 +7466,6 @@ Universidades y centros de investigación pagan por datasets anonimizados para e
 - Taller mecánico cercano cuando detecta que no has movido el coche en días
 - Oferta de neumáticos en otoño
 - Promoción de casco para ciclistas
-
-### 3.6 Privacidad y Cumplimiento Legal
-
-#### 3.6.1 Conformidad con GDPR
 
 **Principios implementados:**
 
@@ -7854,18 +7502,14 @@ Documentos necesarios (ya preparados):
 ├─ Política de Cookies
 ├─ DPO (Data Protection Officer) designado
 ├─ DPIA (Data Protection Impact Assessment)
-└─ Registro de actividades de tratamiento# RoadShare: Sistema de Reconocimiento Social para Conductores Responsables
-
-## Documento Técnico del Proyecto
+└─ Registro de actividades de tratamiento# DriveSkore: Sistema de Reconocimiento Social para Conductores Responsables
 
 **Versión:** 1.0  
 **Fecha:** Octubre 2025  
-**Autores:** Equipo RoadShare  
+**Autores:** Equipo DriveSkore  
 **Estado:** Diseño MVP
 
 ---
-
-## Tabla de Contenidos
 
 1. [Introducción al Problema](#1-introducción-al-problema)
 2. [Nudo: Desarrollo del Problema](#2-nudo-desarrollo-del-problema)
@@ -7876,18 +7520,12 @@ Documentos necesarios (ya preparados):
 
 ---
 
-## 1. Introducción al Problema
-
-### 1.1 El Contexto de la Seguridad Vial Global
-
 La seguridad vial constituye uno de los desafíos de salud pública más importantes del siglo XXI. Según la Organización Mundial de la Salud (OMS), aproximadamente 1.19 millones de personas mueren cada año en accidentes de tráfico, siendo la principal causa de muerte entre jóvenes de 5 a 29 años a nivel mundial. Además, entre 20 y 50 millones de personas sufren lesiones no mortales, muchas de ellas con discapacidades permanentes.
 
 **Datos clave de la OMS (2023):**
 - Los accidentes de tráfico cuestan a la mayoría de los países el 3% de su PIB
 - Más del 90% de las muertes por tráfico ocurren en países de ingresos bajos y medianos
 - Los usuarios vulnerables de la vía (peatones, ciclistas, motoristas) representan más del 50% de todas las muertes por tráfico
-
-### 1.2 El Problema de los Comportamientos en la Vía
 
 La investigación en psicología del tráfico ha identificado que **el comportamiento humano es el factor crítico en más del 90% de los accidentes de tráfico**. Según un estudio publicado en *Accident Analysis & Prevention* (2018), los comportamientos de riesgo incluyen:
 
@@ -7899,8 +7537,6 @@ La investigación en psicología del tráfico ha identificado que **el comportam
 
 Un metaanálisis de la revista *Transportation Research Part F: Traffic Psychology and Behaviour* (2020) demostró que la **intervención más efectiva para cambiar comportamientos viales es el refuerzo social positivo**, siendo hasta 3 veces más efectivo que las sanciones punitivas aisladas.
 
-### 1.3 El Caso Específico de Ciclistas y Usuarios Vulnerables
-
 La Directiva Europea 2022/2561 establece distancias mínimas de seguridad al adelantar ciclistas:
 - **1.5 metros en vías urbanas**
 - **2 metros en carreteras interurbanas**
@@ -7909,10 +7545,6 @@ Sin embargo, estudios de la *European Cyclists' Federation* (2023) muestran que:
 - El 73% de los ciclistas ha experimentado adelantamientos peligrosos
 - Solo el 15% de los conductores respeta consistentemente las distancias de seguridad
 - El 68% de los accidentes ciclista-vehículo ocurren durante maniobras de adelantamiento
-
-### 1.4 Limitaciones de los Sistemas Actuales
-
-#### 1.4.1 Enfoques Punitivos
 
 Los sistemas tradicionales de control de tráfico se basan en:
 - Multas y sanciones
@@ -7925,22 +7557,16 @@ Los sistemas tradicionales de control de tráfico se basan en:
 - No internalización de comportamientos seguros
 - Efecto limitado en cambio cultural a largo plazo
 
-#### 1.4.2 Programas de Concienciación
-
 Las campañas educativas tienen impacto limitado:
 - Estudio de la revista *Injury Prevention* (2021): las campañas de concienciación solo tienen efecto significativo en el 12-18% de la población
 - Requieren inversión continua en publicidad
 - No proporcionan feedback inmediato sobre comportamientos específicos
-
-#### 1.4.3 Tecnología Actual
 
 Los sistemas ADAS (Advanced Driver Assistance Systems) ayudan, pero:
 - Solo disponibles en vehículos de alta gama
 - No reconocen comportamientos socialmente positivos
 - No crean comunidad ni cultura vial
 - No gamifican la conducción segura
-
-### 1.5 La Oportunidad: Tecnología + Psicología Social
 
 La confluencia de tres factores crea una oportunidad única:
 
@@ -7949,8 +7575,6 @@ La confluencia de tres factores crea una oportunidad única:
 3. **Gamificación probada:** Aplicaciones como Strava, Duolingo, y Exercism han demostrado que el reconocimiento social y la gamificación cambian comportamientos masivamente
 
 Un estudio en *Computers in Human Behavior* (2022) mostró que aplicaciones con gamificación aumentan el engagement del usuario en un **238% comparado con apps sin elementos lúdicos**.
-
-### 1.6 Hipótesis del Proyecto
 
 > **Si creamos un sistema que permite a los usuarios reconocer y ser reconocidos por comportamientos positivos en la vía, gamificando la experiencia y proporcionando beneficios tangibles (como descuentos en seguros), entonces podremos:**
 >
@@ -7961,15 +7585,7 @@ Un estudio en *Computers in Human Behavior* (2022) mostró que aplicaciones con 
 
 ---
 
-## 2. Nudo: Desarrollo del Problema
-
-### 2.1 Desafíos Técnicos
-
-#### 2.1.1 Identificación de Usuarios en Movimiento
-
 **El problema central:** Cómo identificar de forma **unívoca, consentida y precisa** a un usuario específico entre múltiples participantes en un entorno de tráfico dinámico (velocidades de 30-120 km/h, ventanas temporales de 2-5 segundos).
-
-##### Opciones tecnológicas analizadas:
 
 | Tecnología | Precisión | Alcance | Latencia | Privacidad | Viabilidad |
 |------------|-----------|---------|----------|------------|------------|
@@ -7981,11 +7597,7 @@ Un estudio en *Computers in Human Behavior* (2022) mostró que aplicaciones con 
 
 **Conclusión de análisis:** Un sistema híbrido **BLE + GPS + Acelerómetro** proporciona el mejor balance entre precisión, privacidad, coste y viabilidad de implementación inmediata.
 
-##### Fundamento científico:
-
 Un paper de *IEEE Transactions on Intelligent Transportation Systems* (2023) titulado "Hybrid Positioning Systems for Connected Vehicles" demostró que combinar BLE para proximidad con GPS para contexto espacial reduce el error de identificación a menos del 3% en escenarios urbanos complejos.
-
-#### 2.1.2 El Problema de la Ventana Temporal
 
 Cuando un conductor presencia un comportamiento positivo (ej: adelantamiento seguro a ciclista), tiene aproximadamente **2-4 segundos** antes de que el momento pase y la memoria del evento se difumine.
 
@@ -7994,8 +7606,6 @@ Cuando un conductor presencia un comportamiento positivo (ej: adelantamiento seg
 - *Human Factors in Transportation* (2021): Interacciones que requieren más de 2 segundos de atención visual fuera de la carretera aumentan el riesgo de accidente en 23x
 
 **Implicación de diseño:** El sistema debe permitir **registro instantáneo (1 botón, <1 segundo) sin requerir atención visual**, postponiendo la confirmación detallada para cuando el usuario esté seguro.
-
-#### 2.1.3 Desafío de Privacidad y GDPR
 
 La regulación europea GDPR (2018) y regulaciones equivalentes globales imponen restricciones estrictas:
 
@@ -8012,8 +7622,6 @@ La regulación europea GDPR (2018) y regulaciones equivalentes globales imponen 
 
 Un análisis legal publicado en *Computer Law & Security Review* (2023) confirma que sistemas opt-in con pseudonimización y minimización de datos cumplen con GDPR si se implementan correctamente.
 
-#### 2.1.4 Consumo de Batería
-
 **El problema:** Las apps de navegación (Google Maps, Waze) consumen 15-25% de batería por hora. Un sistema que debe correr continuamente en background no puede exceder el 8-10% por hora para ser viable.
 
 **Estrategias de optimización basadas en investigación:**
@@ -8025,10 +7633,6 @@ Según *ACM Transactions on Sensor Networks* (2022):
 - **Geofencing:** Desactivar fuera de áreas urbanas/carreteras
 
 **Objetivo técnico:** ≤8% batería/hora con monitorización activa
-
-### 2.2 Desafíos de Experiencia de Usuario
-
-#### 2.2.1 Fricción en el Registro del Evento
 
 **Problema UX:** Balance entre captura rápida y precisión.
 
@@ -8044,8 +7648,6 @@ Según *ACM Transactions on Sensor Networks* (2022):
 *Tiempo de captura: <1 segundo, 0 distracción visual*
 
 Esta aproximación se alinea con la investigación de *Applied Ergonomics* (2020) que establece que **interfaces hápticas/físicas reducen la carga cognitiva en un 67% vs. interfaces táctiles en pantalla durante tareas de conducción**.
-
-#### 2.2.2 Motivación para Revisión Posterior
 
 **Desafío:** ¿Por qué un usuario revisaría eventos horas después?
 
@@ -8064,8 +7666,6 @@ Esta aproximación se alinea con la investigación de *Applied Ergonomics* (2020
    - "¿Era el Tesla azul o el BMW rojo quien te cedió el paso?"
    - Preview de candidatos genera curiosidad
 
-#### 2.2.3 Cold Start Problem
-
 **Problema clásico de redes sociales:** La app no es útil hasta que hay masa crítica de usuarios.
 
 **Estrategia de lanzamiento:**
@@ -8076,10 +7676,6 @@ Esta aproximación se alinea con la investigación de *Applied Ergonomics* (2020
 4. **Incentivos iniciales** de compañías de seguros para early adopters
 
 Caso de estudio: **Waze** alcanzó masa crítica con estrategia similar, enfocándose primero en early adopters tech-savvy antes de escalar (Harvard Business Review, 2018).
-
-### 2.3 Desafíos de Modelo de Negocio
-
-#### 2.3.1 Monetización con Datos: El Modelo Facebook/Google
 
 **Premisa:** "Si el producto es gratis, tú eres el producto"
 
@@ -8093,27 +7689,21 @@ La investigación en *Journal of Business Ethics* (2021) muestra que los usuario
 
 **Flujos de monetización viables:**
 
-##### A) Compañías de Seguros
 - **Modelos de seguro basados en comportamiento** (Usage-Based Insurance)
 - Los usuarios con buena reputación obtienen descuentos del 10-30%
 - Mercado global estimado: $32 mil millones para 2030 (Allied Market Research, 2023)
 
-##### B) Administraciones Públicas
 - **Datos agregados de patrones de tráfico** para planificación urbana
 - **Identificación de puntos negros** de conflicto ciclista-vehículo
 - Ciudades ya pagan por estos datos a Waze, Google Maps
 
-##### C) Investigación Académica
 - **Estudios de comportamiento vial**
 - Datos anonimizados para universidades e institutos de investigación
 
-##### D) Advertising Contextual (Futuro)
 - Anuncios relevantes no invasivos (ej: talleres mecánicos cercanos)
 - Sin tracking individual, solo patrones agregados
 
 **Referencia:** El modelo de Strava con "Strava Metro" (venta de datos agregados de ciclistas a ciudades) genera millones anuales manteniendo privacidad individual (*Wired*, 2022).
-
-#### 2.3.2 Incentivos para Compañías de Seguros
 
 **La propuesta de valor:**
 
@@ -8130,10 +7720,6 @@ Las aseguradoras tienen interés económico directo en conductores más seguros:
 
 Estudio de *Insurance Journal* (2023): El 68% de conductores menores de 35 años están dispuestos a compartir datos de conducción por descuentos del 15% o más.
 
-### 2.4 Desafíos Técnicos de Escalabilidad
-
-#### 2.4.1 Procesamiento de Eventos Geoespaciales
-
 **Volumen esperado a escala:**
 - 1 millón de usuarios activos
 - Promedio 2 trayectos/día de 30 min
@@ -8149,8 +7735,6 @@ Según *VLDB Journal* (2023) sobre sistemas de bases de datos geoespaciales:
 - **Cassandra/ScyllaDB** para time-series de tracking
 
 **Coste de infraestructura estimado:** $5,000-$10,000/mes para 1M usuarios (AWS/GCP)
-
-#### 2.4.2 Matching Algorítmico
 
 **El problema computacional:** Dado un evento en (lat, lon, timestamp), encontrar todos los candidatos potenciales en:
 - ±50 metros espaciales
@@ -8173,10 +7757,6 @@ Complejidad: O(k) donde k << n
 
 Basado en paper de *ACM SIGSPATIAL* (2022): "Efficient Spatio-Temporal Join Queries for Large-Scale Location Data"
 
-### 2.5 Desafíos Culturales y Sociales
-
-#### 2.5.1 Riesgo de Toxicidad
-
 **Aprendizaje de otras plataformas:**
 
 Cuando permitimos evaluaciones entre usuarios, existe riesgo de:
@@ -8192,16 +7772,12 @@ Cuando permitimos evaluaciones entre usuarios, existe riesgo de:
 4. **Rate limiting:** Máximo X votos por día para prevenir spam
 5. **Machine Learning** para detectar patrones de abuso
 
-#### 2.5.2 Adopción Cultural por Regiones
-
 La cultura vial varía enormemente:
 - Países nórdicos: Alta disciplina vial
 - Sur de Europa: Más caóticos pero sociales
 - Asia: Densidad extrema, normas diferentes
 
 **Estrategia:** Lanzamiento por oleadas geográficas, adaptando gamificación y mensajes a cultura local.
-
-#### 2.5.3 El Factor "Hermano Mayor"
 
 Algunas personas rechazan cualquier forma de tracking, incluso voluntario.
 
@@ -8213,13 +7789,7 @@ Algunas personas rechazan cualquier forma de tracking, incluso voluntario.
 
 ---
 
-## 3. Desenlace: Solución Propuesta
-
-### 3.1 Visión del Producto
-
-**RoadShare** es una aplicación móvil que transforma la conducción en una experiencia social positiva, permitiendo a los usuarios reconocer y ser reconocidos por comportamientos seguros en la vía, especialmente el respeto a usuarios vulnerables como ciclistas y peatones.
-
-#### 3.1.1 Propuesta de Valor
+**DriveSkore** es una aplicación móvil que transforma la conducción en una experiencia social positiva, permitiendo a los usuarios reconocer y ser reconocidos por comportamientos seguros en la vía, especialmente el respeto a usuarios vulnerables como ciclistas y peatones.
 
 **Para Conductores/Ciclistas:**
 - Reconocimiento social por conducción segura
@@ -8243,10 +7813,6 @@ Algunas personas rechazan cualquier forma de tracking, incluso voluntario.
 - Reducción de accidentes con usuarios vulnerables
 - Cambio cultural hacia conducción más empática
 - Datos abiertos para investigación en seguridad vial
-
-### 3.2 Arquitectura de la Solución: Enfoque Híbrido
-
-#### 3.2.1 Componentes del Sistema
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -8289,8 +7855,6 @@ Algunas personas rechazan cualquier forma de tracking, incluso voluntario.
 │  └──────────────┘  └──────────────┘  └──────────────┘  │
 └─────────────────────────────────────────────────────────┘
 ```
-
-#### 3.2.2 Flujo de Datos y Eventos
 
 **Fase 1: Captura (Durante conducción)**
 
@@ -8368,10 +7932,6 @@ Usuario abre app:
 │
 └─ Usuario ve animación de recompensa (gamificación)
 ```
-
-### 3.3 Arquitectura de Software Detallada
-
-#### 3.3.1 App Móvil (React Native)
 
 **Estructura de carpetas:**
 
@@ -8565,8 +8125,6 @@ class BackgroundService {
   // ... resto de métodos
 }
 ```
-
-#### 3.3.2 Backend (Node.js + Express)
 
 **Estructura de carpetas:**
 
@@ -8782,8 +8340,6 @@ class MatchingService {
 export default MatchingService;
 ```
 
-#### 3.3.3 Base de Datos (PostgreSQL + PostGIS)
-
 **Schema principal:**
 
 ```sql
@@ -8936,11 +8492,7 @@ CREATE INDEX idx_leaderboards_type_scope
   ON leaderboards (leaderboard_type, scope, rank);
 ```
 
-### 3.4 Sistema de Gamificación Detallado
-
 Inspirado en Exercism.org y otras plataformas exitosas.
-
-#### 3.4.1 Sistema de XP y Niveles
 
 **Fuentes de XP:**
 
@@ -8973,8 +8525,6 @@ function xpForNextLevel(currentLevel) {
 // Nivel 10: 8100-10000 XP
 ```
 
-#### 3.4.2 Sistema de Badges (Insignias)
-
 **Categorías de badges:**
 
 **A) Participación:**
@@ -9003,8 +8553,6 @@ function xpForNextLevel(currentLevel) {
 - 🎄 **Navidad segura 2025**: Evento especial diciembre
 - 🚲 **Semana de la movilidad**: Evento anual septiembre
 - 🏅 **Edición limitada**: Colaboraciones con marcas
-
-#### 3.4.3 Rankings Múltiples
 
 **Tipos de rankings (inspirado en Exercism):**
 
@@ -9040,12 +8588,6 @@ function xpForNextLevel(currentLevel) {
 **Estado:** Listo para ejecución
 
 ---
-
-## 10. Anexos Técnicos Adicionales
-
-### Anexo A: Especificación de API REST
-
-#### A.1 Endpoints de Autenticación
 
 ```http
 POST /api/v1/auth/register
@@ -9093,8 +8635,6 @@ Response: 200 OK
   }
 }
 ```
-
-#### A.2 Endpoints de Eventos
 
 ```http
 POST /api/v1/events
@@ -9240,8 +8780,6 @@ Response: 201 Created
 }
 ```
 
-#### A.3 Endpoints de Gamificación
-
 ```http
 GET /api/v1/users/{userId}/stats
 Authorization: Bearer {token}
@@ -9313,8 +8851,6 @@ Response: 200 OK
 }
 ```
 
-#### A.4 Endpoints de Vehículos
-
 ```http
 POST /api/v1/vehicles
 Authorization: Bearer {token}
@@ -9345,10 +8881,6 @@ Response: 201 Created
   "xpEarned": 10
 }
 ```
-
-### Anexo B: Estructura de Base de Datos Extendida
-
-#### B.1 Tablas Adicionales de Gamificación
 
 ```sql
 -- Tabla de logros/achievements
@@ -9452,8 +8984,6 @@ CREATE INDEX idx_audit_logs_action
   ON audit_logs (action, timestamp DESC);
 ```
 
-#### B.2 Funciones y Triggers Útiles
-
 ```sql
 -- Función para actualizar reputación automáticamente
 CREATE OR REPLACE FUNCTION update_user_reputation()
@@ -9535,10 +9065,6 @@ FOR EACH ROW
 EXECUTE FUNCTION update_user_level();
 ```
 
-### Anexo C: Configuraciones de Deployment
-
-#### C.1 Docker Compose para Desarrollo
-
 ```yaml
 version: '3.8'
 
@@ -9610,8 +9136,6 @@ volumes:
   postgres_data:
   redis_data:
 ```
-
-#### C.2 Terraform para AWS (Ejemplo)
 
 ```hcl
 # main.tf
@@ -9793,7 +9317,7 @@ resource "aws_s3_bucket_public_access_block" "vehicle_photos" {
 resource "aws_cloudfront_distribution" "main" {
   enabled             = true
   is_ipv6_enabled     = true
-  comment             = "RoadShare CDN ${var.environment}"
+  comment             = "DriveSkore CDN ${var.environment}"
   default_root_object = "index.html"
   
   origin {
@@ -9835,10 +9359,6 @@ resource "aws_cloudfront_distribution" "main" {
   }
 }
 ```
-
-### Anexo D: Scripts de Utilidad
-
-#### D.1 Script de Generación de Datos de Prueba
 
 ```typescript
 // scripts/generate-test-data.ts
@@ -9965,8 +9485,6 @@ async function generateTestData() {
 
 generateTestData().catch(console.error);
 ```
-
-#### D.2 Script de Migración de Datos
 
 ```typescript
 // scripts/migrate-production-data.ts
@@ -10388,14 +9906,14 @@ checkHealth().catch(console.error);
 #### F.1 Email de Bienvenida
 
 ```
-Subject: ¡Bienvenido a RoadShare! 🚗✨
+Subject: ¡Bienvenido a DriveSkore! 🚗✨
 
 Hola {nombre},
 
-¡Gracias por unirte a RoadShare! Estás a punto de formar parte de una comunidad que está transformando las carreteras en lugares más seguros y amables.
+¡Gracias por unirte a DriveSkore! Estás a punto de formar parte de una comunidad que está transformando las carreteras en lugares más seguros y amables.
 
-🎯 ¿Qué es RoadShare?
-RoadShare es la app que te permite reconocer (y ser reconocido) por comportamientos positivos en la vía. ¿Alguien te adelantó respetando la distancia de seguridad? ¡Dale un voto positivo!
+🎯 ¿Qué es DriveSkore?
+DriveSkore es la app que te permite reconocer (y ser reconocido) por comportamientos positivos en la vía. ¿Alguien te adelantó respetando la distancia de seguridad? ¡Dale un voto positivo!
 
 🚀 Primeros pasos:
 1. Completa tu perfil y añade tu vehículo
@@ -10416,7 +9934,7 @@ Si tienes dudas, responde a este email o visita nuestro FAQ.
 
 ¡Nos vemos en las carreteras!
 
-El equipo de RoadShare
+El equipo de DriveSkore
 
 ---
 P.D. ¿Conoces a alguien que conduzca de forma ejemplar? ¡Invítalo y gana 25 XP!
@@ -10428,10 +9946,10 @@ P.D. ¿Conoces a alguien que conduzca de forma ejemplar? ¡Invítalo y gana 25 X
 ```
 PARA PUBLICACIÓN INMEDIATA
 
-RoadShare lanza la primera aplicación que gamifica la conducción segura 
+DriveSkore lanza la primera aplicación que gamifica la conducción segura 
 y recompensa el respeto a ciclistas y peatones
 
-Madrid, 20 de octubre de 2025 – RoadShare, startup española de tecnología 
+Madrid, 20 de octubre de 2025 – DriveSkore, startup española de tecnología 
 para movilidad sostenible, anuncia hoy el lanzamiento público de su aplicación 
 móvil que permite a conductores, ciclistas y peatones reconocerse mutuamente 
 por comportamientos positivos en la vía.
@@ -10442,7 +9960,7 @@ peatones, ciclistas y motoristas. Los sistemas actuales se enfocan en
 sanciones, pero la investigación muestra que el refuerzo positivo es 3 veces 
 más efectivo para cambiar comportamientos (Transportation Research, 2020).
 
-LA SOLUCIÓN: RoadShare convierte la conducción en una experiencia social 
+LA SOLUCIÓN: DriveSkore convierte la conducción en una experiencia social 
 positiva. Los usuarios pueden votar a otros conductores que demuestren 
 comportamientos ejemplares, especialmente al respetar distancias de seguridad 
 con ciclistas. La aplicación utiliza GPS, Bluetooth y acelerómetros para 
@@ -10455,19 +9973,19 @@ CARACTERÍSTICAS PRINCIPALES:
 • 100% opt-in: solo funciona entre usuarios que consienten compartir datos
 • Privacy by design: cumplimiento total con GDPR
 
-MODELO DE NEGOCIO: RoadShare genera ingresos mediante partnerships con 
+MODELO DE NEGOCIO: DriveSkore genera ingresos mediante partnerships con 
 compañías de seguros (modelo Usage-Based Insurance) y venta de datos 
 agregados y anonimizados a administraciones públicas para planificación 
 urbana, similar al modelo de Strava Metro.
 
-TRACCIÓN INICIAL: Durante la beta privada (3 meses), RoadShare alcanzó:
+TRACCIÓN INICIAL: Durante la beta privada (3 meses), DriveSkore alcanzó:
 • 500 usuarios activos en Madrid
 • 10,000+ votos positivos intercambiados
 • 4.8/5 rating en App Store
 • Partnership con Línea Directa Seguros
 
 EQUIPO: Fundado por [Nombres], con experiencia previa en [empresas tech 
-relevantes], RoadShare cuenta con el respaldo de [inversores] y ha levantado 
+relevantes], DriveSkore cuenta con el respaldo de [inversores] y ha levantado 
 una ronda seed de 1.5M€.
 
 DISPONIBILIDAD: La aplicación está disponible hoy de forma gratuita en 
@@ -10482,8 +10000,8 @@ CONTACTO DE MEDIOS:
 
 ###
 
-Sobre RoadShare:
-RoadShare es una plataforma de reconocimiento social para conductores 
+Sobre DriveSkore:
+DriveSkore es una plataforma de reconocimiento social para conductores 
 responsables, fundada en 2025 con la misión de transformar la cultura vial 
 global mediante refuerzo positivo y gamificación. Con sede en Madrid, la 
 compañía combina tecnología móvil avanzada, psicología del comportamiento y 
@@ -10492,23 +10010,23 @@ un modelo de negocio sostenible para crear vías más seguras y amables.
 
 #### F.3 Respuesta a Preguntas Frecuentes de Usuarios
 
-**P: ¿RoadShare me está rastreando todo el tiempo?**
+**P: ¿DriveSkore me está rastreando todo el tiempo?**
 R: Solo cuando tienes la app activa y has dado permiso explícito. Puedes pausar el tracking en cualquier momento. Además, tu ubicación se comparte solo con otros usuarios participantes y nunca se vende a terceros de forma individual.
 
 **P: ¿Consumen mucha batería?**
-R: Hemos optimizado RoadShare para consumir menos del 8% de batería por hora, similar a otras apps de navegación. Usamos técnicas inteligentes como ajustar la frecuencia de GPS según tu velocidad.
+R: Hemos optimizado DriveSkore para consumir menos del 8% de batería por hora, similar a otras apps de navegación. Usamos técnicas inteligentes como ajustar la frecuencia de GPS según tu velocidad.
 
 **P: ¿Qué pasa si alguien me vota por error?**
 R: Los votos son confirmados visualmente por el votante horas después del evento. Si alguien te votó por error, lo corregirán al revisar. Además, estadísticamente un voto erróneo tiene impacto mínimo en tu reputación a largo plazo.
 
-**P: ¿Puedo ganar dinero con RoadShare?**
+**P: ¿Puedo ganar dinero con DriveSkore?**
 R: No directamente, pero sí obtienes descuentos significativos en tu seguro de coche (10-30% según tu reputación), lo que puede significar ahorros de 100-300€/año.
 
 **P: ¿Funciona sin conexión a internet?**
-R: ¡Sí! RoadShare guarda todos los eventos localmente y los sincroniza cuando recuperas conexión. Perfecta para túneles o zonas rurales.
+R: ¡Sí! DriveSkore guarda todos los eventos localmente y los sincroniza cuando recuperas conexión. Perfecta para túneles o zonas rurales.
 
 **P: ¿Qué hago si veo un comportamiento peligroso?**
-R: En esta fase inicial, RoadShare solo maneja votos positivos. Para comportamientos peligrosos, usa los canales oficiales (DGT, policía). En el futuro, añadiremos un sistema de reportes con revisión humana.
+R: En esta fase inicial, DriveSkore solo maneja votos positivos. Para comportamientos peligrosos, usa los canales oficiales (DGT, policía). En el futuro, añadiremos un sistema de reportes con revisión humana.
 
 ---
 
@@ -10539,7 +10057,7 @@ Este documento puede ser:
 - ✅ Usado para fines educativos
 
 Con las siguientes condiciones:
-- 📝 Atribución apropiada a RoadShare
+- 📝 Atribución apropiada a DriveSkore
 - 🚫 No para uso comercial directo sin permiso
 - 🔄 Compartir bajo la misma licencia
 
@@ -10559,7 +10077,7 @@ Para uso comercial o colaboraciones: contacto@roadshare.app
 
 ## Palabras Finales
 
-RoadShare nace de una convicción simple pero poderosa: **las personas responden mejor al reconocimiento que al castigo**. 
+DriveSkore nace de una convicción simple pero poderosa: **las personas responden mejor al reconocimiento que al castigo**. 
 
 En un mundo donde las carreteras son espacios de conflicto, queremos transformarlas en comunidades donde conductores, ciclistas y peatones se reconocen mutuamente como aliados, no adversarios.
 
@@ -10615,8 +10133,6 @@ Buffer recomendado (15%): +127,600€
 PRESUPUESTO SEGURO: ~980,000€ (~1M€)
 ```
 
-#### 5.3.2 Ronda de Financiación Recomendada
-
 **Seed Round: 1.5M€**
 
 ```
@@ -10635,10 +10151,6 @@ Valoración pre-money: 4-6M€
 - Business angels con experiencia en insurtech/mobility
 - Corporate venture de aseguradoras
 - Fondos públicos de innovación (CDTI, Horizon Europe)
-
-### 5.4 Métricas de Éxito (KPIs)
-
-#### 5.4.1 Métricas de Producto
 
 **Engagement:**
 ```
@@ -10670,8 +10182,6 @@ Valoración pre-money: 4-6M€
 └─ API latency P95: Target <300ms
 ```
 
-#### 5.4.2 Métricas de Negocio
-
 **Crecimiento:**
 ```
 ├─ MoM user growth: Target >20% (early stage)
@@ -10688,8 +10198,6 @@ Valoración pre-money: 4-6M€
 └─ LTV/CAC ratio: Target >3:1 (largo plazo)
 ```
 
-#### 5.4.3 Métricas de Impacto Social
-
 **Objetivo: Medir el impacto real en seguridad vial**
 
 ```
@@ -10702,12 +10210,6 @@ Valoración pre-money: 4-6M€
 ```
 
 ---
-
-## 6. Referencias
-
-### 6.1 Investigación Académica
-
-#### Seguridad Vial y Comportamiento
 
 1. **World Health Organization (2023).** *Global Status Report on Road Safety 2023*. Geneva: WHO.
    - Estadísticas globales de mortalidad vial
@@ -10725,8 +10227,6 @@ Valoración pre-money: 4-6M€
    - Factores psicosociales en comportamiento de riesgo
    - DOI: 10.1016/j.aap.2010.03.018
 
-#### Gamificación y Cambio de Comportamiento
-
 5. **Hamari, J., Koivisto, J., & Sarsa, H. (2022).** "Does gamification work? A literature review of empirical studies on gamification." *Computers in Human Behavior*, 89, 419-434.
    - Efectividad de gamificación (238% aumento en engagement)
    - DOI: 10.1016/j.chb.2021.106740
@@ -10738,8 +10238,6 @@ Valoración pre-money: 4-6M€
 7. **Ryan, R. M., & Deci, E. L. (2020).** "Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being." *American Psychologist*, 55(1), 68-78.
    - Teoría de motivación aplicable a sistemas de recompensa
    - DOI: 10.1037/0003-066X.55.1.68
-
-#### Tecnología de Localización y Privacidad
 
 8. **Zhu, X., et al. (2023).** "Hybrid Positioning Systems for Connected Vehicles using BLE and GPS." *IEEE Transactions on Intelligent Transportation Systems*, 24(5), 5234-5247.
    - Sistema híbrido BLE+GPS con 97% precisión
@@ -10753,8 +10251,6 @@ Valoración pre-money: 4-6M€
     - Protección de privacidad en sistemas de localización
     - DOI: 10.1145/1234567.1234578
 
-#### Sistemas de Transporte Inteligentes (ITS)
-
 11. **Guerrero-Ibáñez, J., et al. (2023).** "Sensor Technologies for Intelligent Transportation Systems." *Sensors*, 18(4), 1212.
     - Tecnologías de sensores en ITS
     - DOI: 10.3390/s18041212
@@ -10762,8 +10258,6 @@ Valoración pre-money: 4-6M€
 12. **Chen, C., et al. (2022).** "Efficient Spatio-Temporal Join Queries for Large-Scale Location Data." *ACM SIGSPATIAL International Conference Proceedings*, 234-245.
     - Algoritmos de matching geoespacial
     - DOI: 10.1145/3589132.3589234
-
-#### Usage-Based Insurance (UBI)
 
 13. **Deloitte (2023).** *Insurance Outlook 2023: Accelerating innovation in uncertain times*.
     - Mercado de UBI: $32 billion para 2030
@@ -10773,8 +10267,6 @@ Valoración pre-money: 4-6M€
     - Análisis de programas UBI existentes (15-25% reducción siniestralidad)
     - DOI: 10.1016/j.aap.2016.09.018
 
-#### Ciclistas y Seguridad Vial
-
 15. **European Cyclists' Federation (2023).** *Cycling Safety Report 2023*.
     - Estadísticas: 73% ciclistas experimentan adelantamientos peligrosos
     - https://ecf.com/resources/cycling-safety-report-2023
@@ -10783,8 +10275,6 @@ Valoración pre-money: 4-6M€
     - Estudio científico sobre distancias de adelantamiento
     - DOI: 10.1016/j.aap.2006.08.010
 
-#### GDPR y Protección de Datos
-
 17. **European Union (2018).** *General Data Protection Regulation (GDPR)*.
     - Regulación oficial de protección de datos
     - https://eur-lex.europa.eu/eli/reg/2016/679/oj
@@ -10792,10 +10282,6 @@ Valoración pre-money: 4-6M€
 18. **Voigt, P., & Von dem Bussche, A. (2023).** *The EU General Data Protection Regulation (GDPR): A Practical Guide*. Springer.
     - Guía práctica de implementación GDPR
     - ISBN: 978-3-319-57959-7
-
-### 6.2 Casos de Estudio
-
-#### Aplicaciones de Movilidad Exitosas
 
 19. **Waze (Harvard Business Review, 2018).** "How Waze Built a Community of 100M+ Users."
     - Estrategia de crecimiento viral (K-factor >1.5)
@@ -10809,8 +10295,6 @@ Valoración pre-money: 4-6M€
     - Gamificación sin elementos negativos (solo recompensas positivas)
     - https://techcrunch.com/2023/03/15/duolingo-gamification-psychology/
 
-#### Empresas de Insurtech
-
 22. **Progressive Snapshot (Insurance Journal, 2023).** "Usage-Based Insurance Programs Drive Down Claims."
     - 30% descuentos por UBI, 68% usuarios <35 años interesados
     - https://www.insurancejournal.com/news/2023/04/12/progressive-snapshot-results/
@@ -10818,8 +10302,6 @@ Valoración pre-money: 4-6M€
 23. **Admiral LittleBox (Financial Times, 2022).** "UK Insurer Sees Success with Telematics."
     - 40% mejora en retención de clientes jóvenes
     - https://www.ft.com/content/admiral-littlebox-telematics-2022
-
-### 6.3 Recursos Técnicos
 
 24. **Google Maps Platform Documentation.**
     - https://developers.google.com/maps/documentation
@@ -10836,15 +10318,11 @@ Valoración pre-money: 4-6M€
 28. **OpenStreetMap for Geospatial Data.**
     - https://www.openstreetmap.org/
 
-### 6.4 Regulaciones y Normativas
-
 29. **Directiva Europea 2022/2561** sobre distancias de seguridad al adelantar ciclistas.
     - https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32022L2561
 
 30. **Real Decreto 1428/2003 (España)** - Reglamento General de Circulación.
     - https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514
-
-### 6.5 Herramientas y Frameworks
 
 31. **Exercism.org** - Plataforma de aprendizaje con gamificación ejemplar.
     - https://exercism.org/
@@ -10856,10 +10334,6 @@ Valoración pre-money: 4-6M€
     - https://www.terraform.io/docs
 
 ---
-
-## 7. Apéndices
-
-### Apéndice A: Glosario de Términos
 
 **ADAS (Advanced Driver Assistance Systems):** Sistemas avanzados de asistencia al conductor (control crucero adaptativo, frenado de emergencia, etc.)
 
@@ -10887,8 +10361,6 @@ Valoración pre-money: 4-6M€
 
 **XP (Experience Points):** Puntos de experiencia en sistemas de gamificación.
 
-### Apéndice B: Preguntas Frecuentes (FAQ)
-
 **Q: ¿Es legal capturar datos de ubicación de otros usuarios?**
 A: Sí, siempre que haya consentimiento explícito (opt-in). Nuestro sistema solo funciona entre usuarios que voluntariamente participan.
 
@@ -10910,8 +10382,6 @@ A: Fase inicial solo votos positivos. Futuro: votos negativos solo para casos ex
 **Q: ¿Cómo se monetiza sin vender datos individuales?**
 A: Datos agregados y anonimizados para partners. Similar a como Google Maps ofrece "Mobility Reports".
 
-### Apéndice C: Mockups de Pantallas Clave
-
 ```
 [NOTA: En implementación real, incluir screenshots de Figma]
 
@@ -10926,8 +10396,6 @@ A: Datos agregados y anonimizados para partners. Similar a como Google Maps ofre
 9. Configuración de privacidad
 10. Añadir vehículo
 ```
-
-### Apéndice D: Ejemplos de Código
 
 **D.1: Cálculo de distancia geoespacial (Haversine)**
 
@@ -11005,8 +10473,6 @@ WHERE
 ORDER BY distance_meters ASC, time_diff_ms ASC
 LIMIT 10;
 ```
-
-### Apéndice E: Diagrama de Base de Datos Completo
 
 ```
 ┌─────────────────┐         ┌─────────────────┐
@@ -11093,11 +10559,7 @@ LIMIT 10;
 
 ---
 
-## 8. Conclusiones y Próximos Pasos
-
-### 8.1 Resumen Ejecutivo
-
-RoadShare representa una oportunidad única para transformar la cultura vial global a través de:
+DriveSkore representa una oportunidad única para transformar la cultura vial global a través de:
 
 1. **Reconocimiento social positivo** entre conductores, ciclistas y peatones
 2. **Gamificación efectiva** que crea engagement y cambio de comportamiento real
@@ -11109,8 +10571,6 @@ La investigación académica respalda cada aspecto del diseño:
 - Gamificación aumenta engagement 238%
 - UBI reduce siniestralidad 15-25%
 - Tecnología BLE+GPS ofrece 97% precisión en identificación
-
-### 8.2 Factores Críticos de Éxito
 
 ```
 1. ✅ Ejecución técnica impecable
@@ -11129,8 +10589,6 @@ La investigación académica respalda cada aspecto del diseño:
    └─ Engagement continuo, feedback loop, evangelistas
 ```
 
-### 8.3 Riesgos y Mitigaciones
-
 | Riesgo | Probabilidad | Impacto | Mitigación |
 |--------|--------------|---------|------------|
 | Baja adopción inicial | Media | Alto | Beta con comunidades ciclistas, incentivos seguros |
@@ -11138,8 +10596,6 @@ La investigación académica respalda cada aspecto del diseño:
 | Fraude/abuso | Media | Medio | ML detection, revisión humana casos extremos |
 | Competencia de big tech | Baja | Alto | First-mover advantage, comunidad fuerte, patents |
 | Cambios regulatorios GDPR | Baja | Medio | Legal counsel permanente, privacy by design |
-
-### 8.4 Próximos Pasos Inmediatos
 
 **Semana 1-2:**
 ```
@@ -11167,8 +10623,6 @@ La investigación académica respalda cada aspecto del diseño:
 □ Desarrollar marca y materiales marketing
 □ Buscar inversión Seed (1.5M€)
 ```
-
-### 8.5 Visión a 5 Años
 
 **2025:** 
 - Lanzamiento en España
@@ -11198,8 +10652,6 @@ La investigación académica respalda cada aspecto del diseño:
 
 ---
 
-## 9. Call to Action
-
 **Para Inversores:**
 Oportunidad única de invertir en la intersección de mobility, insurtech y social impact. Market size de $32B en UBI + mercado TAM de datos de movilidad. Equipo comprometido, roadmap claro, go-to-market validado.
 
@@ -11214,9 +10666,7 @@ Sé parte de la primera comunidad que transforma la conducción en una experienc
 
 ---
 
-## Contacto
-
-**RoadShare Project Team**  
+**DriveSkore Project Team**  
 Email: [contacto@roadshare.app]  
 Web: [www.roadshare.app] *(en construcción)*  
 GitHub: [github.com/roadshare]  
@@ -11237,12 +10687,6 @@ LinkedIn: [linkedin.com/company/roadshare]
 
 ---
 
-## 5. Plan de Desarrollo
-
-### 5.1 Roadmap de Producto
-
-#### 5.1.1 Fase 0: Pre-lanzamiento (Mes 1-2)
-
 **Objetivos:**
 - Validar concepto con usuarios potenciales
 - Diseñar UX/UI completo
@@ -11257,8 +10701,6 @@ LinkedIn: [linkedin.com/company/roadshare]
 ✅ Registro legal de la empresa
 ✅ Consultoría legal GDPR inicial
 ```
-
-#### 5.1.2 Fase 1: MVP - Core Features (Mes 3-5)
 
 **Sprint 1-2: Autenticación y Perfiles (2 semanas)**
 ```
@@ -11325,8 +10767,6 @@ Frontend:
 
 **Hito: MVP completo funcional** ✅
 
-#### 5.1.3 Fase 2: Beta Privada (Mes 6-7)
-
 **Objetivos:**
 - Probar con 100-500 early adopters
 - Iterar basado en feedback
@@ -11350,8 +10790,6 @@ Frontend:
 - >5 eventos confirmados/usuario/semana
 - Batería < 8%/hora
 - Crash rate < 0.5%
-
-#### 5.1.4 Fase 3: Lanzamiento Público (Mes 8-9)
 
 **Pre-lanzamiento:**
 ```
@@ -11379,8 +10817,6 @@ Frontend:
 └─ Acuerdos con flotas corporativas
 ```
 
-#### 5.1.5 Fase 4: Expansión y Monetización (Mes 10-12)
-
 **Nuevas features:**
 ```
 ├─ Modo "Flota empresarial" para empresas
@@ -11397,8 +10833,6 @@ Frontend:
 ├─ Programa de afiliados (dashcams, accesorios)
 └─ Explorar publicidad contextual
 ```
-
-#### 5.1.6 Fase 5: Escala Internacional (Año 2)
 
 **Expansión geográfica:**
 ```
@@ -11417,10 +10851,6 @@ Frontend:
 └─ Realidad aumentada (AR) para visualizar votos en tiempo real
 ```
 
-### 5.2 Equipo Necesario
-
-#### 5.2.1 Fase MVP (Mes 1-5)
-
 ```
 Equipo mínimo viable (5 personas):
 
@@ -11437,8 +10867,6 @@ Equipo mínimo viable (5 personas):
 ```
 
 **Coste estimado:** 40,000-60,000€/mes (salarios España + freelancers)
-
-#### 5.2.2 Post-lanzamiento (Mes 6-12)
 
 ```
 Equipo expandido (12-15 personas):
@@ -11463,10 +10891,6 @@ Business:
 Legal & Compliance:
 └─ 1 x DPO / Legal Counsel (part-time o externo)
 ```
-
-### 5.3 Presupuesto Estimado
-
-#### 5.3.1 Costes de Desarrollo (Año 1)
 
 ```
 PERSONAL (principal gasto):
@@ -11509,10 +10933,6 @@ INFRAESTRUCTURA Y SERVICIOS:
 └────────────────────────────────────────┘
 ```
 
-### 3.5 Modelo de Monetización Detallado
-
-#### 3.5.1 Partnership con Compañías de Seguros
-
 **Propuesta de valor para aseguradoras:**
 
 Las compañías de seguros tienen un incentivo económico directo en reducir siniestralidad. Según un informe de *Deloitte Insurance Outlook* (2023), las aseguradoras que implementan programas de "Usage-Based Insurance" (UBI) consiguen:
@@ -11526,7 +10946,7 @@ Las compañías de seguros tienen un incentivo económico directo en reducir sin
 ```
 Tier 1 - Descuento Básico (5-10%):
 ├─ Requisitos:
-│  ├─ Usuario activo en RoadShare
+│  ├─ Usuario activo en DriveSkore
 │  ├─ Mínimo 50 XP/mes
 │  └─ Rating ≥ 3.5⭐
 └─ Aseguradora paga: 2€/mes por usuario
@@ -11565,8 +10985,6 @@ Escenario conservador (3 años):
    └─ Ingresos estimados: 42M€/año
 ```
 
-#### 3.5.2 Venta de Datos Agregados
-
 **Para Administraciones Públicas:**
 
 Las ciudades necesitan datos de movilidad para planificación urbana. Actualmente pagan a empresas como Waze (Waze for Cities) o Google por estos datos.
@@ -11588,8 +11006,6 @@ Las ciudades necesitan datos de movilidad para planificación urbana. Actualment
 - Año 2: 25 ciudades = 900,000€/año
 - Año 3: 100 ciudades = 3.6M€/año
 
-#### 3.5.3 Investigación Académica
-
 Universidades y centros de investigación pagan por datasets anonimizados para estudios de:
 - Psicología del tráfico
 - Ingeniería de transporte
@@ -11597,8 +11013,6 @@ Universidades y centros de investigación pagan por datasets anonimizados para e
 - Impacto ambiental
 
 **Modelo:** Licencias anuales de 10,000-50,000€ por institución.
-
-#### 3.5.4 Publicidad Contextual (Fase futura)
 
 **Principios:**
 - ❌ NO tracking individual
@@ -11609,10 +11023,6 @@ Universidades y centros de investigación pagan por datasets anonimizados para e
 - Taller mecánico cercano cuando detecta que no has movido el coche en días
 - Oferta de neumáticos en otoño
 - Promoción de casco para ciclistas
-
-### 3.6 Privacidad y Cumplimiento Legal
-
-#### 3.6.1 Conformidad con GDPR
 
 **Principios implementados:**
 
@@ -11649,18 +11059,14 @@ Documentos necesarios (ya preparados):
 ├─ Política de Cookies
 ├─ DPO (Data Protection Officer) designado
 ├─ DPIA (Data Protection Impact Assessment)
-└─ Registro de actividades de tratamiento# RoadShare: Sistema de Reconocimiento Social para Conductores Responsables
-
-## Documento Técnico del Proyecto
+└─ Registro de actividades de tratamiento# DriveSkore: Sistema de Reconocimiento Social para Conductores Responsables
 
 **Versión:** 1.0  
 **Fecha:** Octubre 2025  
-**Autores:** Equipo RoadShare  
+**Autores:** Equipo DriveSkore  
 **Estado:** Diseño MVP
 
 ---
-
-## Tabla de Contenidos
 
 1. [Introducción al Problema](#1-introducción-al-problema)
 2. [Nudo: Desarrollo del Problema](#2-nudo-desarrollo-del-problema)
@@ -11671,18 +11077,12 @@ Documentos necesarios (ya preparados):
 
 ---
 
-## 1. Introducción al Problema
-
-### 1.1 El Contexto de la Seguridad Vial Global
-
 La seguridad vial constituye uno de los desafíos de salud pública más importantes del siglo XXI. Según la Organización Mundial de la Salud (OMS), aproximadamente 1.19 millones de personas mueren cada año en accidentes de tráfico, siendo la principal causa de muerte entre jóvenes de 5 a 29 años a nivel mundial. Además, entre 20 y 50 millones de personas sufren lesiones no mortales, muchas de ellas con discapacidades permanentes.
 
 **Datos clave de la OMS (2023):**
 - Los accidentes de tráfico cuestan a la mayoría de los países el 3% de su PIB
 - Más del 90% de las muertes por tráfico ocurren en países de ingresos bajos y medianos
 - Los usuarios vulnerables de la vía (peatones, ciclistas, motoristas) representan más del 50% de todas las muertes por tráfico
-
-### 1.2 El Problema de los Comportamientos en la Vía
 
 La investigación en psicología del tráfico ha identificado que **el comportamiento humano es el factor crítico en más del 90% de los accidentes de tráfico**. Según un estudio publicado en *Accident Analysis & Prevention* (2018), los comportamientos de riesgo incluyen:
 
@@ -11694,8 +11094,6 @@ La investigación en psicología del tráfico ha identificado que **el comportam
 
 Un metaanálisis de la revista *Transportation Research Part F: Traffic Psychology and Behaviour* (2020) demostró que la **intervención más efectiva para cambiar comportamientos viales es el refuerzo social positivo**, siendo hasta 3 veces más efectivo que las sanciones punitivas aisladas.
 
-### 1.3 El Caso Específico de Ciclistas y Usuarios Vulnerables
-
 La Directiva Europea 2022/2561 establece distancias mínimas de seguridad al adelantar ciclistas:
 - **1.5 metros en vías urbanas**
 - **2 metros en carreteras interurbanas**
@@ -11704,10 +11102,6 @@ Sin embargo, estudios de la *European Cyclists' Federation* (2023) muestran que:
 - El 73% de los ciclistas ha experimentado adelantamientos peligrosos
 - Solo el 15% de los conductores respeta consistentemente las distancias de seguridad
 - El 68% de los accidentes ciclista-vehículo ocurren durante maniobras de adelantamiento
-
-### 1.4 Limitaciones de los Sistemas Actuales
-
-#### 1.4.1 Enfoques Punitivos
 
 Los sistemas tradicionales de control de tráfico se basan en:
 - Multas y sanciones
@@ -11720,22 +11114,16 @@ Los sistemas tradicionales de control de tráfico se basan en:
 - No internalización de comportamientos seguros
 - Efecto limitado en cambio cultural a largo plazo
 
-#### 1.4.2 Programas de Concienciación
-
 Las campañas educativas tienen impacto limitado:
 - Estudio de la revista *Injury Prevention* (2021): las campañas de concienciación solo tienen efecto significativo en el 12-18% de la población
 - Requieren inversión continua en publicidad
 - No proporcionan feedback inmediato sobre comportamientos específicos
-
-#### 1.4.3 Tecnología Actual
 
 Los sistemas ADAS (Advanced Driver Assistance Systems) ayudan, pero:
 - Solo disponibles en vehículos de alta gama
 - No reconocen comportamientos socialmente positivos
 - No crean comunidad ni cultura vial
 - No gamifican la conducción segura
-
-### 1.5 La Oportunidad: Tecnología + Psicología Social
 
 La confluencia de tres factores crea una oportunidad única:
 
@@ -11744,8 +11132,6 @@ La confluencia de tres factores crea una oportunidad única:
 3. **Gamificación probada:** Aplicaciones como Strava, Duolingo, y Exercism han demostrado que el reconocimiento social y la gamificación cambian comportamientos masivamente
 
 Un estudio en *Computers in Human Behavior* (2022) mostró que aplicaciones con gamificación aumentan el engagement del usuario en un **238% comparado con apps sin elementos lúdicos**.
-
-### 1.6 Hipótesis del Proyecto
 
 > **Si creamos un sistema que permite a los usuarios reconocer y ser reconocidos por comportamientos positivos en la vía, gamificando la experiencia y proporcionando beneficios tangibles (como descuentos en seguros), entonces podremos:**
 >
@@ -11756,15 +11142,7 @@ Un estudio en *Computers in Human Behavior* (2022) mostró que aplicaciones con 
 
 ---
 
-## 2. Nudo: Desarrollo del Problema
-
-### 2.1 Desafíos Técnicos
-
-#### 2.1.1 Identificación de Usuarios en Movimiento
-
 **El problema central:** Cómo identificar de forma **unívoca, consentida y precisa** a un usuario específico entre múltiples participantes en un entorno de tráfico dinámico (velocidades de 30-120 km/h, ventanas temporales de 2-5 segundos).
-
-##### Opciones tecnológicas analizadas:
 
 | Tecnología | Precisión | Alcance | Latencia | Privacidad | Viabilidad |
 |------------|-----------|---------|----------|------------|------------|
@@ -11776,11 +11154,7 @@ Un estudio en *Computers in Human Behavior* (2022) mostró que aplicaciones con 
 
 **Conclusión de análisis:** Un sistema híbrido **BLE + GPS + Acelerómetro** proporciona el mejor balance entre precisión, privacidad, coste y viabilidad de implementación inmediata.
 
-##### Fundamento científico:
-
 Un paper de *IEEE Transactions on Intelligent Transportation Systems* (2023) titulado "Hybrid Positioning Systems for Connected Vehicles" demostró que combinar BLE para proximidad con GPS para contexto espacial reduce el error de identificación a menos del 3% en escenarios urbanos complejos.
-
-#### 2.1.2 El Problema de la Ventana Temporal
 
 Cuando un conductor presencia un comportamiento positivo (ej: adelantamiento seguro a ciclista), tiene aproximadamente **2-4 segundos** antes de que el momento pase y la memoria del evento se difumine.
 
@@ -11789,8 +11163,6 @@ Cuando un conductor presencia un comportamiento positivo (ej: adelantamiento seg
 - *Human Factors in Transportation* (2021): Interacciones que requieren más de 2 segundos de atención visual fuera de la carretera aumentan el riesgo de accidente en 23x
 
 **Implicación de diseño:** El sistema debe permitir **registro instantáneo (1 botón, <1 segundo) sin requerir atención visual**, postponiendo la confirmación detallada para cuando el usuario esté seguro.
-
-#### 2.1.3 Desafío de Privacidad y GDPR
 
 La regulación europea GDPR (2018) y regulaciones equivalentes globales imponen restricciones estrictas:
 
@@ -11807,8 +11179,6 @@ La regulación europea GDPR (2018) y regulaciones equivalentes globales imponen 
 
 Un análisis legal publicado en *Computer Law & Security Review* (2023) confirma que sistemas opt-in con pseudonimización y minimización de datos cumplen con GDPR si se implementan correctamente.
 
-#### 2.1.4 Consumo de Batería
-
 **El problema:** Las apps de navegación (Google Maps, Waze) consumen 15-25% de batería por hora. Un sistema que debe correr continuamente en background no puede exceder el 8-10% por hora para ser viable.
 
 **Estrategias de optimización basadas en investigación:**
@@ -11820,10 +11190,6 @@ Según *ACM Transactions on Sensor Networks* (2022):
 - **Geofencing:** Desactivar fuera de áreas urbanas/carreteras
 
 **Objetivo técnico:** ≤8% batería/hora con monitorización activa
-
-### 2.2 Desafíos de Experiencia de Usuario
-
-#### 2.2.1 Fricción en el Registro del Evento
 
 **Problema UX:** Balance entre captura rápida y precisión.
 
@@ -11839,8 +11205,6 @@ Según *ACM Transactions on Sensor Networks* (2022):
 *Tiempo de captura: <1 segundo, 0 distracción visual*
 
 Esta aproximación se alinea con la investigación de *Applied Ergonomics* (2020) que establece que **interfaces hápticas/físicas reducen la carga cognitiva en un 67% vs. interfaces táctiles en pantalla durante tareas de conducción**.
-
-#### 2.2.2 Motivación para Revisión Posterior
 
 **Desafío:** ¿Por qué un usuario revisaría eventos horas después?
 
@@ -11859,8 +11223,6 @@ Esta aproximación se alinea con la investigación de *Applied Ergonomics* (2020
    - "¿Era el Tesla azul o el BMW rojo quien te cedió el paso?"
    - Preview de candidatos genera curiosidad
 
-#### 2.2.3 Cold Start Problem
-
 **Problema clásico de redes sociales:** La app no es útil hasta que hay masa crítica de usuarios.
 
 **Estrategia de lanzamiento:**
@@ -11871,10 +11233,6 @@ Esta aproximación se alinea con la investigación de *Applied Ergonomics* (2020
 4. **Incentivos iniciales** de compañías de seguros para early adopters
 
 Caso de estudio: **Waze** alcanzó masa crítica con estrategia similar, enfocándose primero en early adopters tech-savvy antes de escalar (Harvard Business Review, 2018).
-
-### 2.3 Desafíos de Modelo de Negocio
-
-#### 2.3.1 Monetización con Datos: El Modelo Facebook/Google
 
 **Premisa:** "Si el producto es gratis, tú eres el producto"
 
@@ -11888,27 +11246,21 @@ La investigación en *Journal of Business Ethics* (2021) muestra que los usuario
 
 **Flujos de monetización viables:**
 
-##### A) Compañías de Seguros
 - **Modelos de seguro basados en comportamiento** (Usage-Based Insurance)
 - Los usuarios con buena reputación obtienen descuentos del 10-30%
 - Mercado global estimado: $32 mil millones para 2030 (Allied Market Research, 2023)
 
-##### B) Administraciones Públicas
 - **Datos agregados de patrones de tráfico** para planificación urbana
 - **Identificación de puntos negros** de conflicto ciclista-vehículo
 - Ciudades ya pagan por estos datos a Waze, Google Maps
 
-##### C) Investigación Académica
 - **Estudios de comportamiento vial**
 - Datos anonimizados para universidades e institutos de investigación
 
-##### D) Advertising Contextual (Futuro)
 - Anuncios relevantes no invasivos (ej: talleres mecánicos cercanos)
 - Sin tracking individual, solo patrones agregados
 
 **Referencia:** El modelo de Strava con "Strava Metro" (venta de datos agregados de ciclistas a ciudades) genera millones anuales manteniendo privacidad individual (*Wired*, 2022).
-
-#### 2.3.2 Incentivos para Compañías de Seguros
 
 **La propuesta de valor:**
 
@@ -11925,10 +11277,6 @@ Las aseguradoras tienen interés económico directo en conductores más seguros:
 
 Estudio de *Insurance Journal* (2023): El 68% de conductores menores de 35 años están dispuestos a compartir datos de conducción por descuentos del 15% o más.
 
-### 2.4 Desafíos Técnicos de Escalabilidad
-
-#### 2.4.1 Procesamiento de Eventos Geoespaciales
-
 **Volumen esperado a escala:**
 - 1 millón de usuarios activos
 - Promedio 2 trayectos/día de 30 min
@@ -11944,8 +11292,6 @@ Según *VLDB Journal* (2023) sobre sistemas de bases de datos geoespaciales:
 - **Cassandra/ScyllaDB** para time-series de tracking
 
 **Coste de infraestructura estimado:** $5,000-$10,000/mes para 1M usuarios (AWS/GCP)
-
-#### 2.4.2 Matching Algorítmico
 
 **El problema computacional:** Dado un evento en (lat, lon, timestamp), encontrar todos los candidatos potenciales en:
 - ±50 metros espaciales
@@ -11968,10 +11314,6 @@ Complejidad: O(k) donde k << n
 
 Basado en paper de *ACM SIGSPATIAL* (2022): "Efficient Spatio-Temporal Join Queries for Large-Scale Location Data"
 
-### 2.5 Desafíos Culturales y Sociales
-
-#### 2.5.1 Riesgo de Toxicidad
-
 **Aprendizaje de otras plataformas:**
 
 Cuando permitimos evaluaciones entre usuarios, existe riesgo de:
@@ -11987,16 +11329,12 @@ Cuando permitimos evaluaciones entre usuarios, existe riesgo de:
 4. **Rate limiting:** Máximo X votos por día para prevenir spam
 5. **Machine Learning** para detectar patrones de abuso
 
-#### 2.5.2 Adopción Cultural por Regiones
-
 La cultura vial varía enormemente:
 - Países nórdicos: Alta disciplina vial
 - Sur de Europa: Más caóticos pero sociales
 - Asia: Densidad extrema, normas diferentes
 
 **Estrategia:** Lanzamiento por oleadas geográficas, adaptando gamificación y mensajes a cultura local.
-
-#### 2.5.3 El Factor "Hermano Mayor"
 
 Algunas personas rechazan cualquier forma de tracking, incluso voluntario.
 
@@ -12008,13 +11346,7 @@ Algunas personas rechazan cualquier forma de tracking, incluso voluntario.
 
 ---
 
-## 3. Desenlace: Solución Propuesta
-
-### 3.1 Visión del Producto
-
-**RoadShare** es una aplicación móvil que transforma la conducción en una experiencia social positiva, permitiendo a los usuarios reconocer y ser reconocidos por comportamientos seguros en la vía, especialmente el respeto a usuarios vulnerables como ciclistas y peatones.
-
-#### 3.1.1 Propuesta de Valor
+**DriveSkore** es una aplicación móvil que transforma la conducción en una experiencia social positiva, permitiendo a los usuarios reconocer y ser reconocidos por comportamientos seguros en la vía, especialmente el respeto a usuarios vulnerables como ciclistas y peatones.
 
 **Para Conductores/Ciclistas:**
 - Reconocimiento social por conducción segura
@@ -12038,10 +11370,6 @@ Algunas personas rechazan cualquier forma de tracking, incluso voluntario.
 - Reducción de accidentes con usuarios vulnerables
 - Cambio cultural hacia conducción más empática
 - Datos abiertos para investigación en seguridad vial
-
-### 3.2 Arquitectura de la Solución: Enfoque Híbrido
-
-#### 3.2.1 Componentes del Sistema
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -12084,8 +11412,6 @@ Algunas personas rechazan cualquier forma de tracking, incluso voluntario.
 │  └──────────────┘  └──────────────┘  └──────────────┘  │
 └─────────────────────────────────────────────────────────┘
 ```
-
-#### 3.2.2 Flujo de Datos y Eventos
 
 **Fase 1: Captura (Durante conducción)**
 
@@ -12163,10 +11489,6 @@ Usuario abre app:
 │
 └─ Usuario ve animación de recompensa (gamificación)
 ```
-
-### 3.3 Arquitectura de Software Detallada
-
-#### 3.3.1 App Móvil (React Native)
 
 **Estructura de carpetas:**
 
@@ -12360,8 +11682,6 @@ class BackgroundService {
   // ... resto de métodos
 }
 ```
-
-#### 3.3.2 Backend (Node.js + Express)
 
 **Estructura de carpetas:**
 
@@ -12577,8 +11897,6 @@ class MatchingService {
 export default MatchingService;
 ```
 
-#### 3.3.3 Base de Datos (PostgreSQL + PostGIS)
-
 **Schema principal:**
 
 ```sql
@@ -12731,11 +12049,7 @@ CREATE INDEX idx_leaderboards_type_scope
   ON leaderboards (leaderboard_type, scope, rank);
 ```
 
-### 3.4 Sistema de Gamificación Detallado
-
 Inspirado en Exercism.org y otras plataformas exitosas.
-
-#### 3.4.1 Sistema de XP y Niveles
 
 **Fuentes de XP:**
 
@@ -12768,8 +12082,6 @@ function xpForNextLevel(currentLevel) {
 // Nivel 10: 8100-10000 XP
 ```
 
-#### 3.4.2 Sistema de Badges (Insignias)
-
 **Categorías de badges:**
 
 **A) Participación:**
@@ -12798,8 +12110,6 @@ function xpForNextLevel(currentLevel) {
 - 🎄 **Navidad segura 2025**: Evento especial diciembre
 - 🚲 **Semana de la movilidad**: Evento anual septiembre
 - 🏅 **Edición limitada**: Colaboraciones con marcas
-
-#### 3.4.3 Rankings Múltiples
 
 **Tipos de rankings (inspirado en Exercism):**
 
