@@ -586,9 +586,10 @@ DriveSkore-app/
     "@react-native-community/geolocation": "^3.2.1",
     "react-native-sensors": "^7.3.6",
     "react-native-
+```
+---------------------------8<------------------------------------------------
 
-
-
+```
     └─ "Night rider" (conducción nocturna)
 ```
 
